@@ -1,0 +1,238 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General styling */
+body {
+	background: #e6e6e6;
+}
+
+.container {
+  padding: 0 2rem;
+}
+
+/* Navigation */
+nav ul {
+  background-color: #010e80;
+	display: flex;
+	list-style-type: none;
+	width: 100%;
+}
+
+nav li {
+	flex: 1;
+}
+
+nav li a {
+  color: white;
+	display: block;
+  font-size: 1rem;
+  padding: 30px 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #111;
+}
+
+/* Header */
+header h1{
+	font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+/* Article */
+article {
+  font-size: 1.16rem;
+	text-align: left;
+	padding: 15px 15px 15px 0;
+	max-width: 80%;
+	line-height: 1.7;
+}
+
+/* Figure */
+img {
+  display: block;
+	height: 300px;
+  position: relative;
+  width: 400px;
+}
+
+figcaption{
+  padding: 8px 0 20px 8px;
+  text-align: left;
+}
+
+/* Aside */
+aside {
+	border: 1px solid black;
+  border-color: #010e80;
+	border-width: 5px;
+  font-size: 1.16rem;
+  max-width: 80%;
+	padding: 15px;
+	position: relative;
+}
+
+aside ol {
+  list-style: decimal;
+  padding: 15px 0 15px 45px;
+}
+
+/* Media */
+#media h2 {
+  font-size: 1.7rem;
+  padding: 5px 0 10px;
+}
+
+video {
+	display: block;
+	height: 250px;
+  padding: 15px 0;
+  width: 420px;
+}
+
+audio {
+	padding: 15px 0;
+	width: 98%;
+}
+
+embed {
+	height: 458px;
+  padding: 15px 0;
+  width: 400px;
+}
+
+/* Footer */
+footer {
+  background-color: #010e80;
+  bottom: -100px;
+	position: relative;
+	width: 100%;
+}
+
+footer p {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  article,
+  aside,
+  audio,
+  embed,
+  figure,
+  video {
+    max-width: 100%;
+  }
+
+  header h1{
+	  font-size: 2rem;
+  }
+
+  #media h2 {
+    font-size: 1.5rem;
+  }
+  
+  article {
+    padding: 15px 0;
+  }
+
+  aside ol {
+    padding: 15px 0 15px 20px;
+  }
+}
