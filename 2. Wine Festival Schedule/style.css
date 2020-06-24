@@ -1,0 +1,161 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General styling */
+body {
+  background-color: #242f44;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+h1, 
+.table-h1 {
+  background-color: white;
+  color: #8c6b48;
+  font-size: 2.25rem;
+  padding: 15px;
+}
+
+.table-h2 {
+  font-size: 1.5rem;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2.7;
+  letter-spacing: 0.8px;
+  margin-left: 20px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+/* Header */
+header {
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Table */
+table {
+  margin: 40px auto 140px;
+  text-align: center;
+}
+
+th {
+  border: 2px solid #8c6b48;
+}
+
+td {
+  border: 2px solid #8c6b48;
+  width: 300px;
+}
+
+.left {
+  width: 150px;
+}
+
+/* Footer */
+footer {
+  background-color: #242f44;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+}
+
+footer h3 {
+  background-color: #242f44;
+  display: inline-block;
+  font-size: 14px;
+}
