@@ -1,7 +1,7 @@
 # Learn HTML | Codecademy
 
 1. Fashion Blog
-![Design preview for the Football Pitch - Pure CSS](./design/preview.png)
+- ![Design preview for the Football Pitch - Pure CSS](./design/preview.png)
 ---
 2. Wine Festival Schedule
 3. Form a Story
