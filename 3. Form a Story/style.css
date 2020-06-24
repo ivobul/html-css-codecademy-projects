@@ -1,0 +1,271 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General styling */
+body {
+  background-color: rgb(255, 199, 64);
+  font-family: "Open Sans", Arial;
+}
+
+#top {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: 2% 10%;
+}
+
+#top img {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+}
+
+#main {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 15px;
+  min-height: 80vh;
+  margin: 2% 10%;
+  overflow: auto;
+  text-align: center;
+}
+
+/* Form - index.html */
+h1.form-caption {
+  font-size: 1.7rem;
+  padding: 20px 5px 15px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form p {
+  margin-bottom: 10px;
+}
+
+form label, form span {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 0;
+  text-align: right;
+  width: 220px;
+}
+form span {
+  width: 230px;
+}
+
+input[type="text"], 
+input[type="number"],
+.radio-btn,
+select,
+input[type="submit"] {
+  width: 350px;
+}
+
+input[type="text"], 
+input[type="number"],
+textarea {
+  padding: 5px;
+}
+
+input[type="text"], 
+input[type="number"] {
+  border-radius: 5px;
+  border:1px solid #cccccc;
+}
+
+.radio-btn {
+  padding-left: 15px;
+  text-align: left;
+}
+
+.radio-btn-label {
+  margin-right: 30px;
+  padding: 0;
+  width: 30px;
+}
+
+input[type="submit"] {
+  padding: 3px 0;
+  margin-left: 235px;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 1px 0;
+}
+
+textarea {
+  height: 230px;
+  max-width: 350px;
+}
+
+.text-area label {
+  text-align: right;
+  vertical-align: top;
+  width: 220px;
+}
+
+/* story.html and original.html */
+h1#title {
+  padding-top: 10px;
+  font-size: 1.7rem;
+}
+
+#story {
+  padding: 0 3%;
+}
+
+#story p {
+  padding: 5px 0;
+}
+
+h2#moral {
+  font-size: 1.25rem;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  
+}
+.italics {
+  font-style: italic;
+}
+
+.word {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+  #main {
+    border-radius: 0;
+    height: 100%;
+    margin: 5%;
+    overflow: auto;
+    text-align: center;
+  }
+
+  #top {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    margin: 5%;
+  }
+
+  #top img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  form {
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+
+  form label, form span, .text-area label {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  input[type="text"], 
+  input[type="number"],
+  input[type="submit"], 
+  select,  
+  .radio-btn {
+    width: 100%;
+  }
+
+  textarea {
+    display: block;
+    max-width: 100%;
+  }
+
+  input[type="submit"] {
+    margin: 0;
+  }
+}
+
