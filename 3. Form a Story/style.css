@@ -172,7 +172,7 @@ input[type="submit"] {
 }
 
 select {
-  padding: 1px 0;
+  height: 35px;
 }
 
 textarea {
