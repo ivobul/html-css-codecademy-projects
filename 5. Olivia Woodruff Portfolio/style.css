@@ -1,0 +1,124 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General styles */
+body {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+  font-family: Georgia;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.header {
+  background-color: CornflowerBlue;
+  text-align: center;
+}
+
+.about-me {
+  font-size: 1.25rem;
+  opacity: 0.5;
+  padding: 0 10px 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+h1 {
+  color: Azure;
+  font-size: 2.3rem;
+  padding: 20px 0;
+}
+
+ul {
+  padding: 20px 0 20px 30px;
+}
+
+h2 {
+  font-size: 1.7rem;
+  padding: 15px 0;
+}
+
+h6 {
+  font-size: .8rem;
+  padding: 20px 0 10px;
+}
