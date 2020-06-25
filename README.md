@@ -1,4 +1,4 @@
-# Learn HTML | Codecademy
+# Learn HTML & CSS | Codecademy
 
 1. Fashion Blog
 2. Wine Festival Schedule
