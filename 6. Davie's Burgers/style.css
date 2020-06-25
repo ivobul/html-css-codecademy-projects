@@ -1,0 +1,206 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General styles */
+body {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_foodlogo.png");
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+}
+
+nav img {
+  display: block;
+  margin: 0 auto;
+  width: 180px;
+}
+
+nav span {
+  display: block;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+nav a {
+  color: #666666;
+}
+
+/* Content Container */
+.content {
+  height: 500px;
+  margin: 10px auto;
+  overflow: scroll;
+  width: 100%;
+}
+
+/* Content Header */
+.header {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_burgerphoto.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 320px;
+}
+
+.header h1 {
+  background-color: #05A8AA;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 68%;
+}
+
+/* Content Body */
+.content .body {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.body p {
+  color: #333333;
+  font-weight: 100;
+  line-height: 34px;
+  margin-top: 18px;
+  width: 90%;
+}
+
+/* Content Button */
+.button {
+  border: 1px solid blue;
+  border-radius: 4px;
+  color: #05A8AA;
+  display: block;
+  font-weight: 700;
+  margin: 40px auto;
+  padding: 20px;
+  width: 200px;
+}
+
+.button:hover {
+  color: #FFF;
+  background-color: #05A8AA;
+  border: 1px solid #05A8AA;
+}
+
+/* Content Nutrition */
+ul.nutrition {
+  padding: 20px;
+}
+
+ul.nutrition li {
+  background-color: #05A8AA;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 3px;
+  padding: 10px 20px;
+  width: 200px;
+}
+
+.nutrition .category {
+  color: white;
+  display: block;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.nutrition .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
