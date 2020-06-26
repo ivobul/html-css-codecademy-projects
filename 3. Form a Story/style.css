@@ -258,6 +258,10 @@ a {
   .radio-btn {
     width: 100%;
   }
+	
+  .radio-btn {
+    padding-left: 0;
+  }
 
   textarea {
     display: block;
