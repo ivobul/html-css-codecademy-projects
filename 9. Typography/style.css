@@ -1,0 +1,316 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* General styles */
+body {
+  font-size: 1.125rem;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 4.44rem;
+  padding: 0 12%;
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+  font-family: Verdana, sans-serif;
+  font-size: .77rem;
+  font-weight: bold;
+}
+
+.header .logo {
+  flex-grow: 1;
+  color: #ffb78c;
+}
+
+.header li {
+  display: inline;
+  padding-right: 2.22rem;
+}
+
+.header li a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/project-morocco/banner.jpg") center center no-repeat;
+  background-size: cover;
+  color: #ffb78c;
+}
+
+.banner h2 {
+  padding: .55rem 0;
+  border-top: 4px solid #ffb78c;
+  border-bottom: 4px solid #ffb78c;
+  font-size: 1.44rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.banner h1 {
+  font-family: 'Abril Fatface', cursive;
+  padding-top: 1.11rem;
+  font-size: 10.5rem;
+  font-weight: 900;
+}
+
+/* Journal */
+.journal {
+  padding: 0 25% 4rem 25%;
+  background-color: rgb(254, 231, 218);
+  color: #4a4a4a;
+}
+
+.photo {
+  width: 75%;
+  padding: 1.11rem;
+  border-radius: 5px;
+  margin: 0 auto 4.44rem auto;
+  background-color: white;
+}
+
+.photo .image-container {
+  overflow: hidden;
+  margin-bottom: 1.11rem;
+}
+
+.photo .image-container img {
+  width: 100%;
+}
+
+.photo .caption {
+  font-style: italic;
+  font-family: 'Merriweather', serif;
+}
+
+.photo.first {
+  position: relative;
+  top: -2.77rem;
+  margin-bottom: 1.67rem;
+}
+
+.journal p {
+  padding-bottom: 2.77rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.journal .first-letter {
+  float: left;
+  padding-right: 1.4rem;
+  font-family: "Abril Fatface", serif;
+  font-size: 7.44rem;
+  color: #10b0d8;
+  line-height: .87;
+}
+
+.quote {
+  display: block;
+  padding: 4.44rem 0;
+  margin-bottom: 3.33rem;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  text-align: center;
+  font-size: 3.55rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+/* Footer */
+footer {
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0 1%;
+  background-color: #212121;
+}
+
+footer .image-container {
+  flex: 35%;
+}
+
+footer .content {
+  flex: 65%;
+  font-style: italic;
+  color: #9b9b9b;
+  padding: 1rem .5rem;
+}
+
+footer p {
+  padding-bottom: 1.66rem;
+}
+
+footer p:last-child {
+  padding-bottom: 0;
+}
+
+footer .author {
+  color: #ffb78c;
+}
+
+footer em {
+  color: #cfcfcf;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .banner {
+    height: 40rem;
+  }
+
+  .banner h1 {
+    font-size: 7rem;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 0 10% 2rem 10%;
+  }
+
+  footer .image-container {
+    height: 300px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  body {
+    font-size: .875rem;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .header .logo {
+    flex-grow: 0;
+    padding: 1rem 0;
+  }
+
+  .header li {
+    width: 100%; 
+    display: inline-block;
+    text-align: center; 
+    padding: 1rem 0;
+  }
+  
+  .journal {
+    padding: 0 10% 4rem 10%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  
+
+  .quote {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .banner {
+    height: 30rem;
+  }
+
+  .banner h1 {
+    font-size: 3.5rem;
+  }
+}
