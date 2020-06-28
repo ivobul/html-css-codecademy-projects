@@ -87,7 +87,6 @@ header {
   position: fixed;
   width: 100%;
   z-index: 2;
-  
 }
 
 label, 
@@ -107,7 +106,7 @@ nav li {
   font-weight: 600;
   font-size: .9rem;
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   width: 80px;
 }
 
@@ -250,9 +249,9 @@ footer p {
   }
 
   main h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    padding-top: 300px;
+    padding-top: 250px;
   }
 
   .supporting .col {
