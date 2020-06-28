@@ -9,6 +9,7 @@
 7. Broadway
 8. Paint Store
 9. Typography
+10. CSS Grid - PupSpa
 
 <https://www.codecademy.com/learn/learn-html>\
 <https://www.codecademy.com/learn/learn-css>
