@@ -129,7 +129,7 @@ nav li:last-child {
   background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/banner.png) center center no-repeat;
   background-size: cover;
   min-height: 100%;
-  padding-bottom: 30px;
+  padding: 1.5rem 2rem 2.5rem;
   position: relative;
   text-align: center;
 }
@@ -148,16 +148,11 @@ nav li:last-child {
   position: relative; /* Makes elements display above overlay. */
 }
 
-span {
-  display: block;
-}
-
-h1 {
+#banner h1 {
   color: rgba(0, 0, 0, 0.7);
   font-family: "Creepster", cursive;
-  font-size: 8rem;
-  padding-top: 10.4375rem;
-  padding-bottom: 1.25rem;
+  font-size: 9rem;
+  padding: 6rem 0 2rem;
 }
 
 #banner p {
@@ -507,14 +502,13 @@ footer .button {
 }
 
 @media only screen and (max-width: 820px) {
-  h1 {
+  #banner h1 {
     font-size: 6rem;
-    padding-top: 7rem;
   }
 
   #banner p {
-    padding: 0 2rem;
-    text-align: left;
+    padding: 0;
+    text-align: center;
     width: 100%;
   }
 
@@ -525,7 +519,7 @@ footer .button {
 
   #color-guide .introduction {
     padding: 0;
-    text-align: left;
+    text-align: center;
   }
 
   #color-guide .introduction h2 {
@@ -574,9 +568,22 @@ footer .button {
     margin-bottom: 1rem;
     margin: 0 auto;
   }
+  
+  #banner h1 {
+    font-size: 3rem;
+    text-align: left;
+  }
 
-  h1 {
-    font-size: 4rem;
+  #banner p {
+    text-align: left;
+  }
+
+  #color-guide .introduction {
+    text-align: left;
+  }
+
+  #color-guide .introduction h2 {
+    text-align: left;
   }
 
   footer p {
