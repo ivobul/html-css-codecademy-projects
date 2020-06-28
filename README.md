@@ -8,9 +8,10 @@
 6. Davie's Burgers
 7. Broadway
 8. Paint Store
+9. Typography
 
-**<https://www.codecademy.com/learn/learn-html>**\
-**<https://www.codecademy.com/learn/learn-css>**
+<https://www.codecademy.com/learn/learn-html>\
+<https://www.codecademy.com/learn/learn-css>
 
 
 ## Contributing
