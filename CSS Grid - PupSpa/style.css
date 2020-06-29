@@ -90,7 +90,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template: repeat(2, 5% 30%) 10% 20% / repeat(6, 1fr);
+  grid-template: 5% 699px 15% 20% 20% 5% / 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 20px;
 }
 
@@ -104,7 +104,9 @@ footer {
 header {
   background-color: #ffffff;
   color: #dc6363;
-  padding: 2rem;
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: center;
 }
 
 .banner {
@@ -125,18 +127,22 @@ header {
   background-color: #f0f0f0;
   grid-column-start: 1;
   grid-column-end: 7;
-  padding: 3rem 0rem;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
 }
 
 .text {
+  align-items: center;
   color: #2f2d2d;
+  display: flex;
   font-family: Poppins;
   font-size: 1.125rem;
   font-weight: 500;
   height: 100%;
   letter-spacing: 0.5px;
-  margin: 0 auto;
   text-align: left;
+  justify-content: center;
   width: 50%;
 }
 
@@ -179,40 +185,45 @@ header {
 }
 
 .testimonial {
+  align-items: flex-start;
   background-color: #f0f0f0;
   color: #db6363;
+  display: flex;
   font-family: Poppins;
   font-size: 1.25rem;
   font-style: italic;
   font-weight: 300;
   letter-spacing: 3.7px;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 .one {
   grid-column: 1 / span 3;
-  padding: 2rem .5rem;
+  padding: 1.5rem .5rem;
 }
 
 .two {
   grid-column: 4 / span 3;
-  padding: 2rem .5rem;
+  padding: 1.5rem .5rem;
 }
 
 footer {
+  align-items: center;
   background-color: #db6363;
   color: #fff;
+  display: flex;
   font-family: Poppins;
   font-size: .875rem;
   font-weight: 300;
   letter-spacing: 0.4px;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 600px){
   .grid {
     grid-template-columns: 100%;
-    grid-template-rows: 5% 30% 10% repeat(3, 10%) repeat(2, 10%) 5%; 
+    grid-template-rows: 5% 25% 15% repeat(3, 10%) repeat(2, 10%) 5%; 
     grid-column-gap: 0;
   }
 
@@ -268,17 +279,19 @@ footer {
   }
 
   .testimonial {
+    align-items: center;
+    display: flex;
     font-size: .9rem;
     font-weight: 500;
     letter-spacing: 0.3px;
+    justify-content: center;
   }
 
   .one {
-    padding: 2rem .5rem 1rem;
+    padding: 1rem .5rem;
   }
 
   .two {
-    padding: 1rem .5rem 2rem;
+    padding: 1rem .5rem;
   }
 }
-
