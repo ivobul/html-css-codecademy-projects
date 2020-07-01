@@ -1,7 +1,7 @@
 # Learn HTML & CSS | Codecademy Projects
 
 ## Learn HTML
-[1. Fashion Blog] (https://ivobul.github.io/learn-html-css-codecademy/)
+1. Fashion Blog
 2. Wine Festival Schedule
 3. Form a Story
 4. New York City Blog
