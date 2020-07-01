@@ -9,11 +9,11 @@
 <https://www.codecademy.com/learn/learn-html>
 
 ## Learn CSS
-[1. Olivia Woodruff Portfolio](https://ivobul.github.io/learn-html-css-codecademy/Olivia%20Woodruff%20Portfolio)
-[2. Davie's Burgers](https://ivobul.github.io/learn-html-css-codecademy/Davie's%20Burgers)
-[3. Broadway](https://ivobul.github.io/learn-html-css-codecademy/Broadway)
-[4. Paint Store](https://ivobul.github.io/learn-html-css-codecademy/Paint%20Store)
-[5. Typography](https://ivobul.github.io/learn-html-css-codecademy/Typography)
+[1. Olivia Woodruff Portfolio](https://ivobul.github.io/learn-html-css-codecademy/Olivia%20Woodruff%20Portfolio)<br>
+[2. Davie's Burgers](https://ivobul.github.io/learn-html-css-codecademy/Davie's%20Burgers)<br>
+[3. Broadway](https://ivobul.github.io/learn-html-css-codecademy/Broadway)<br>
+[4. Paint Store](https://ivobul.github.io/learn-html-css-codecademy/Paint%20Store)<br>
+[5. Typography](https://ivobul.github.io/learn-html-css-codecademy/Typography)<br>
 [6. CSS Grid - PupSpa](https://ivobul.github.io/learn-html-css-codecademy/CSS%20Grid%20-%20PupSpa)
 
 <https://www.codecademy.com/learn/learn-css>
