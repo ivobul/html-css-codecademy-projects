@@ -6,7 +6,7 @@
 [3. Form a Story](https://ivobul.github.io/learn-html-css-codecademy/Form%20a%20Story)<br>
 [4. New York City Blog](https://ivobul.github.io/learn-html-css-codecademy/New%20York%20City%20Blog)
 
-<https://www.codecademy.com/learn/learn-html>
+[Learn HTML with Codecademy](https://www.codecademy.com/learn/learn-html)
 
 ## Learn CSS
 [1. Olivia Woodruff Portfolio](https://ivobul.github.io/learn-html-css-codecademy/Olivia%20Woodruff%20Portfolio)<br>
@@ -16,7 +16,7 @@
 [5. Typography](https://ivobul.github.io/learn-html-css-codecademy/Typography)<br>
 [6. CSS Grid - PupSpa](https://ivobul.github.io/learn-html-css-codecademy/CSS%20Grid%20-%20PupSpa)
 
-<https://www.codecademy.com/learn/learn-css>
+[Learn CSS with Codecademy](https://www.codecademy.com/learn/learn-css)
 
 
 ## Contributing
