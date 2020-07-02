@@ -95,25 +95,23 @@ label,
 }
 
 nav ul {
-  margin-left: 20px;
-  padding: 15px 0;
+  display: flex;
+  margin-left: 1.25rem;
 }
 
 nav li {
   color: #fff;
-  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: .9rem;
+  padding: 1.125rem 0;
   text-align: center;
-  padding: 15px 0;
   width: 80px;
 }
 
 main {
   position: relative;
   text-align: center;
-  top: 80px;
 }
 
 main h1 {
@@ -121,9 +119,8 @@ main h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 4.375rem;
-  margin-top: 0px;
-  margin-bottom: 80px;
-  padding-top: 150px;
+  padding-top: 12.5rem;
+  padding-bottom: 5rem;
   text-transform: uppercase;
 }
 
@@ -132,9 +129,7 @@ footer {
   bottom: 0;
   color: #fff;
   left: 0;
-  padding: 20px 0;
-  position: fixed;
-  width: 100%;
+  padding: 1.2rem 0;
 }
 
 footer p {
@@ -152,8 +147,10 @@ footer p {
 
 .jumbotron {
   background-image: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg");
-  height: 800px;
+height: 750px;
   background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .btn-main {
@@ -180,8 +177,8 @@ footer p {
 }
 
 .supporting {
-  padding-top: 180px;
-  padding-bottom: 200px;
+  padding-top: 130px;
+  padding-bottom: 160px;
 }
 
 .supporting .col {
@@ -207,7 +204,7 @@ footer p {
   font-size: .875rem;
   line-height: 20px;
   margin-bottom: 20px;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 
 .supporting a {
@@ -218,10 +215,11 @@ footer p {
   font-weight: 600;
   font-size: .75rem;
   letter-spacing: 1.3px;
-  margin-bottom: 10px;
+  margin-bottom: .625rem;
+  padding: .625rem;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 10px;
+  
 }
 
 @media (max-width: 500px) {
@@ -230,18 +228,19 @@ footer p {
     color: white;
     cursor: pointer;
     display: inline-block; 
-    font-size: 2rem;
-    padding: 18px 25px;
+    font-size: 1.5rem;
+    padding: .625rem 1.25rem;
   }
 
   nav ul {
     display: none; 
     margin-left: 0;
-    padding: 0;
   }
 
   nav input:checked ~ ul { 
-    display: block; 
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
   }
 
   nav ul li {
@@ -251,7 +250,7 @@ footer p {
   main h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    padding-top: 200px;
+    padding-top: 18.75rem;
   }
 
   .supporting .col {
