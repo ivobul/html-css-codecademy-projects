@@ -82,6 +82,15 @@ a {
 }
 
 /* General styles */
+.container {
+  max-width: 940px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 .625rem;
+  text-align: center;
+}
+
+/* Header */
 header {
   background-color: #333333;
   position: fixed;
@@ -109,6 +118,7 @@ nav li {
   width: 80px;
 }
 
+/* Main */
 main {
   position: relative;
   text-align: center;
@@ -124,33 +134,14 @@ main h1 {
   text-transform: uppercase;
 }
 
-footer {
-  background-color: #333;
-  bottom: 0;
-  color: #fff;
-  left: 0;
-  padding: 1.2rem 0;
-}
-
-footer p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.6875rem;
-  text-transform: uppercase;
-}
-
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
-  text-align: center;
-}
-
+/* Main */
+/* Jumbotron */
 .jumbotron {
   background-image: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg");
-height: 750px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  height: 750px;
 }
 
 .btn-main {
@@ -160,25 +151,16 @@ height: 750px;
   font-weight: 600;
   font-size: 1.125rem;
   letter-spacing: 1.3px;
-  padding: 16px 40px;
+  padding: 1rem 2.5rem;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.btn-default {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: .625rem;
-  letter-spacing: 1.3px;
-  margin-bottom: 20px; 
-  padding: 10px 20px;
-  text-decoration: none;
-  text-transform: uppercase;  
-}
-
+/* Main */
+/* Supporting section */
 .supporting {
-  padding-top: 130px;
-  padding-bottom: 160px;
+  padding-top: 8.125rem;
+  padding-bottom: 10rem;
 }
 
 .supporting .col {
@@ -203,7 +185,7 @@ height: 750px;
   font-weight: 400;
   font-size: .875rem;
   line-height: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   padding: 0 1.25rem;
 }
 
@@ -219,9 +201,25 @@ height: 750px;
   padding: .625rem;
   text-decoration: none;
   text-transform: uppercase;
-  
 }
 
+
+/* Footer */
+footer {
+  background-color: #333;
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  padding: 1.3rem 0;
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+}
+
+/* Responsive design */
 @media (max-width: 500px) {
   nav label { 
     background: #a02620;
