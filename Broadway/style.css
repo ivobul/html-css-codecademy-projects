@@ -96,7 +96,7 @@ label,
 
 nav ul {
   margin-left: 20px;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 nav li {
@@ -123,7 +123,7 @@ main h1 {
   font-size: 4.375rem;
   margin-top: 0px;
   margin-bottom: 80px;
-  padding-top: 200px;
+  padding-top: 150px;
   text-transform: uppercase;
 }
 
@@ -132,7 +132,7 @@ footer {
   bottom: 0;
   color: #fff;
   left: 0;
-  padding: 41px 0;
+  padding: 20px 0;
   position: fixed;
   width: 100%;
 }
@@ -251,10 +251,14 @@ footer p {
   main h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    padding-top: 250px;
+    padding-top: 200px;
   }
 
   .supporting .col {
     width: 100%;
+  }
+
+  footer {
+    position: relative;
   }
 }
