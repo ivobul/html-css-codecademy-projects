@@ -15,6 +15,7 @@
 &nbsp;&nbsp;4. Paint Store<br>
 &nbsp;&nbsp;5. Typography<br>
 &nbsp;&nbsp;6. CSS Grid - PupSpa
+&nbsp;&nbsp;7. CSS Grig - Task Board
 
 **[Learn CSS with Codecademy](https://www.codecademy.com/learn/learn-css)**
 
