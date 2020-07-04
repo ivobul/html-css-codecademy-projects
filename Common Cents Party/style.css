@@ -1,0 +1,199 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* General styles */
+body {
+  color: #fff;
+  font-family: Arial;
+}
+
+p, 
+a {
+  font-size: 0.9rem;
+}
+
+img {
+  height: 350px;
+  max-width: 550px;
+  padding-left: 30px;
+}
+
+.container {
+  display: flex;
+  min-height: 100%;
+}
+
+/* Navigation */
+.nav {
+  color: #FFCFCF;
+  padding-top: 55px;
+  padding-right: 30px;
+  text-align: center;
+  width: 15%;
+}
+
+.nav h4 {
+  -webkit-margin-before: 0;
+  margin-left: 30px;
+}
+
+.nav ul {
+  margin: 15px 0 0 30px;
+}
+
+/* Main section */
+.main {
+  background-color: #FFCFCF;
+  min-height: 750px;
+  height: 100vh;
+  width: 85%;
+}
+
+.main ul {
+  padding-left: 30px;
+}
+
+.main li {
+  font-size: 0.9rem;
+}
+
+.main h1 {
+  font-size: 3.875rem;
+  padding-top: 40px;
+  padding-left: 30px;
+  -webkit-margin-before: 0;
+}
+
+.main video {
+  padding-left: 30px;
+}
+
+.main p {
+  padding: 10px 0 10px 30px;
+  width: 55%;
+}
+
+.main a {
+  color: inherit;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.main a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .nav,
+  .main,
+  .main p,
+  .main img {
+    width: 100%;  
+  }
+
+  .nav {
+    padding-top: 27.5px;
+  }
+
+  .nav h4 {
+    margin-left: 0;
+  }
+
+  .nav ul {
+    margin: 15px 0;
+  }
+
+  .main h1 {
+    font-size: 2rem;
+  }
+
+  .main img { 
+    height: auto;
+  }
+
+  .main p { padding-right: 10px; }
+}
