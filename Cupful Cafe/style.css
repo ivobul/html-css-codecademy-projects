@@ -1,0 +1,198 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* General styles */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  color: #D6B47E;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+h3 {
+  background-color: #fff;
+  color: #D6B47E;
+  display: inline-block;
+  font-weight: 800;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+/* Hero section */
+.hero {
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/cafe.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-basis: 964px;
+  min-height: 422px;
+  text-align: center;
+  
+}
+
+.hero h2 {
+  background-color: #D6B47E;
+  color: white;
+  display: inline-block;
+  font-size: 1.75rem;
+  margin: 5px;
+  padding: 3px 10px;
+  text-align: center;
+}
+
+/* Supporting-container section */
+.supporting-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 45px 0 0 0;
+  flex-basis: 964px;
+}
+
+.supporting-container div {
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  min-height: 345px;
+  
+}
+
+.upcoming {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/events.jpg);
+  margin-right: 15px;
+}
+
+.roast {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/roast.jpg);
+  margin-left: 15px;
+}
+
+/* Footer */
+#footer {
+  color: #D6B47E;
+  font-weight: 300;
+  font-size: 1.25rem;
+  padding: 20px 10px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Media queries */
+@media only screen and (max-width: 767px) {
+  .hero {
+    width: 100%;
+  }
+
+  .supporting-container { 
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .upcoming, 
+  .roast { 
+    width: 100%;
+  }
+
+  .upcoming {
+    margin-right: 0; 
+    margin-bottom: 45px;
+  }
+
+  .roast {
+    margin-left: 0;
+  }
+}
