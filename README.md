@@ -23,7 +23,7 @@
 ## How to Make a Website
 &nbsp;&nbsp;1. Common Cents Party<br>
 
-**[How to Make a Website - Codecademy](https://www.codecademy.com/learn/make-a-website)**
+**[Make a Website - Codecademy](https://www.codecademy.com/learn/make-a-website)**
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
