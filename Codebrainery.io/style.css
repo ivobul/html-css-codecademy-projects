@@ -1,0 +1,133 @@
+html, 
+body {
+  overflow-x: hidden; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+figure img {
+  height: auto;
+  width: 100%;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div > h1 {
+  font-size: 1.8rem;
+}
+
+nav > p {
+  cursor: pointer;
+}
+.pill-black, .pill-white {
+  border: 0.5px solid #000;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pill-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.pill-black {
+  background-color: #000;
+  color: #fff;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer div {
+  align-items: center;
+  display: flex;
+}
+
+/* Customizations of Bootstrap classes */
+header .row {
+  align-items: center;
+  display: flex;
+}
+
+.col-sm-4 p {
+  margin: 25px 20px 15px;
+  min-width: 60px;
+  padding: 1px;
+}
+
+section.container .row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.jumbotron {
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 350px;
+}
+
+.jumbotron h2 {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  color: #F06529;
+  display: inline-block;
+  font-weight: 700;
+  padding: 10px 35px;
+}
+
+.jumbotron h3 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.btn-primary {
+  color: #2e6da4;
+  background-color: #FFFFFF;
+}
+
+.col-sm-1 img {
+  min-width: 32px;
+  min-height: 33px;
+}
+
+@media only screen and (max-width: 540px) {
+ header .row {
+    display: block;
+    text-align: center;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  .pill-black, .pill-white {
+    border: none;
+    border-radius: 0;
+  }
+  
+  .pill-black {
+    background-color: #fff;
+    color: #000;
+  }
+}
