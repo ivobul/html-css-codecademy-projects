@@ -24,7 +24,8 @@
 &nbsp;&nbsp;1. Common Cents Party<br>
 &nbsp;&nbsp;2. Cupful Cafe<br>
 &nbsp;&nbsp;3. Amazing Space<br>
-&nbsp;&nbsp;4. Codebrainery.io
+&nbsp;&nbsp;4. Codebrainery.io<br>
+&nbsp;&nbsp;5. Building a Personal Portfolio
 
 **[Make a Website - Codecademy](https://www.codecademy.com/learn/make-a-website)**
 
