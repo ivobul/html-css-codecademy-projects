@@ -1,0 +1,232 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* General styles */
+body {
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Main */
+.main {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  padding-top: 1rem;
+}
+
+.main img {
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+  width: 15rem;
+}
+
+nav {
+  background-color: orangered;
+  color: white;
+}
+
+li {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+}
+
+/* Supporting, Rating, Gallery, Location */
+.supporting,
+.rating,
+.gallery,
+.location {
+  margin: 4em auto;
+}
+
+/** Supporting section **/
+.supporting {
+  align-items: flex-start;
+  display: flex;
+  padding: 0 1rem;
+}
+
+.supporting h2 { 
+  font-size: 1.5rem; 
+}
+
+.supporting p { 
+  padding-top: 15px;
+}
+
+.supporting img {
+  height: 10%;
+  margin-right: 5%;
+  width: 10%;
+}
+
+/** Rating section **/
+.rating {
+  align-items: center;
+  background-color: orangered;
+  color: white;
+  display: flex;
+  height: 20rem;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.rating h1 {
+  font-size: 2.5rem;
+  padding-bottom: 20px;
+}
+
+/** Gallery **/
+.gallery img {
+  display: block;
+  float: left;
+  margin: 1.5%;
+  width: 30%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/** Location **/
+.location {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.location h1 {
+  font-size: 2rem;
+  padding-top: 15px;
+}
+
+.location img {
+  width: 100%;
+}
+
+footer {
+  background-color: orangered;
+  padding: 0 1rem;
+}
+
+footer .container {
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5em 0;
+}
+
+@media only screen and (max-width: 960px) {
+  .main {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .supporting img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .rating h1 {
+    font-size: 2rem;
+  }
+
+  .gallery img {
+    width: 100%;
+    margin: 0;
+  }
+
+  footer nav {
+    display: none;
+  }
+}
