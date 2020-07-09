@@ -34,5 +34,9 @@
 
 **[Learn Responsive Design - Codecademy](https://www.codecademy.com/learn/learn-responsive-design)**
 
+## Learn Color Design
+
+**[Learn Color Design - Codecademy](https://www.codecademy.com/learn/learn-color-design)**
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
