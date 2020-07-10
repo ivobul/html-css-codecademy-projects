@@ -34,9 +34,10 @@
 
 **[Learn Responsive Design - Codecademy](https://www.codecademy.com/learn/learn-responsive-design)**
 
-## Learn Color Design
+## Learn Bootstrap
+&nbsp;&nbsp;1. Recreate a painting using Bootstrap's grid
 
-**[Learn Color Design - Codecademy](https://www.codecademy.com/learn/learn-color-design)**
+**[Learn Bootstrap - Codecademy](https://www.codecademy.com/learn/learn-bootstrap)**
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
