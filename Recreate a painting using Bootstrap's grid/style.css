@@ -1,0 +1,57 @@
+.container {
+  width: 500px;
+  height: 505px;
+}
+
+#a {
+  border: solid black;
+  border-width: 0 7.5px 15px 0px;
+  min-height: 165px;
+  background: rgb(255, 255, 255);
+}
+
+#b {
+  border: solid black;
+  border-width: 15px 7.5px 7.5px 0;
+  min-height: 190px;
+  background: rgb(255, 255, 255);
+}
+
+#c {
+  border: solid black;
+  border-width: 0 0 7.5px 7.5px;
+  min-height: 355px;
+  background: rgb(220, 40, 26);
+}
+
+#d {
+  border: solid black;
+  border-width: 7.5px 7.5px 0 0;
+  min-height: 150px;
+  background: rgb(0, 93, 159);
+}
+
+#e {
+  border: solid black;
+  border-width: 7.5px 7.5px 0 7.5px; 
+  min-height: 150px;
+  background: rgb(255, 255, 255);
+}
+
+#f {
+  border: solid black;
+  border-width: 7.5px 0 12.5px 7.5px;
+  min-height: 75px;
+  background: rgb(255, 255, 255);
+}
+
+#g{
+  border: solid black;
+  border-width: 12.5px 0 0 7.5px;
+  min-height: 75px;
+  background-color: rgb(242, 224, 122);
+}
+
+span {
+  font-size: 1.3rem !important;
+}
