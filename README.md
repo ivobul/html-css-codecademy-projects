@@ -1,4 +1,4 @@
-# Learn HTML & CSS | Codecademy Projects
+# HTML & CSS | Codecademy Projects
 
 ## Learn HTML
 &nbsp;&nbsp;1. Fashion Blog<br>
