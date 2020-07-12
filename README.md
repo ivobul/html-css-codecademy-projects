@@ -35,7 +35,8 @@
 **[Learn Responsive Design - Codecademy](https://www.codecademy.com/learn/learn-responsive-design)**
 
 ## Learn Bootstrap
-&nbsp;&nbsp;1. Recreate a painting using Bootstrap's grid
+&nbsp;&nbsp;1. Recreate a painting using Bootstrap's grid<br>
+&nbsp;&nbsp;2. Adhoc
 
 **[Learn Bootstrap - Codecademy](https://www.codecademy.com/learn/learn-bootstrap)**
 
