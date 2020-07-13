@@ -40,5 +40,10 @@
 
 **[Learn Bootstrap - Codecademy](https://www.codecademy.com/learn/learn-bootstrap)**
 
+## Learn how to build websites (Skill Path)
+&nbsp;&nbsp;1. Fotomatic
+
+**[Learn how to build websites (Skill Path) - Codecademy](https://www.codecademy.com/learn/paths/learn-how-to-build-websites)**
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
