@@ -10,9 +10,9 @@
 
 ## Learn CSS | Projects
 &nbsp;&nbsp;1. Broadway<br>
-&nbsp;&nbsp;2. CSS Grid - PupSpa<br>
-&nbsp;&nbsp;3. CSS Grid - Task Board<br>
-&nbsp;&nbsp;4. CSS Grid - Architecture Blog
+&nbsp;&nbsp;2. CSS Grid - Architecture Blog<br>
+&nbsp;&nbsp;3. CSS Grid - PupSpa<br>
+&nbsp;&nbsp;4. CSS Grid - Task Board<br>
 &nbsp;&nbsp;5. Davie's Burgers<br>
 &nbsp;&nbsp;6. Olivia Woodruff Portfolio<br>
 &nbsp;&nbsp;7. Paint Store<br>
