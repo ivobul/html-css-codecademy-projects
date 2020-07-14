@@ -121,6 +121,10 @@ img {
   margin: 15px 0 0 30px;
 }
 
+.nav li {
+  padding: 3px 0;
+}
+
 /* Main section */
 .main {
   background-color: #FFCFCF;
