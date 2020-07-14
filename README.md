@@ -40,9 +40,6 @@
 
 **[Learn Bootstrap - Codecademy](https://www.codecademy.com/learn/learn-bootstrap)**
 
-## Learn how to build websites (Skill Path) | Projects
-&nbsp;&nbsp;1. Fotomatic
-
 **[Learn how to build websites (Skill Path) - Codecademy](https://www.codecademy.com/learn/paths/learn-how-to-build-websites)**
 
 ## Contributing
