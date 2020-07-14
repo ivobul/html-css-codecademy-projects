@@ -113,7 +113,7 @@ nav li {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: .9rem;
-  padding: 1.125rem 0;
+  padding: 1.3rem 0;
   text-align: center;
   width: 80px;
 }
@@ -210,7 +210,7 @@ footer {
   bottom: 0;
   color: #fff;
   left: 0;
-  padding: 1.3rem 0;
+  padding: 1.7rem 0;
 }
 
 footer p {
@@ -226,13 +226,17 @@ footer p {
     color: white;
     cursor: pointer;
     display: inline-block; 
-    font-size: 1.5rem;
-    padding: .625rem 1.25rem;
+    font-size: 1.6rem;
+    padding: .813rem 1.25rem;
   }
 
   nav ul {
     display: none; 
     margin-left: 0;
+  }
+
+  nav li {
+    padding: .9rem 0;
   }
 
   nav input:checked ~ ul { 
