@@ -113,9 +113,13 @@ nav li {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: .9rem;
-  padding: 1.3rem 0;
   text-align: center;
   width: 80px;
+}
+
+nav a {
+  display: block;
+  padding: 1.3rem 0;
 }
 
 /* Main */
@@ -235,7 +239,7 @@ footer p {
     margin-left: 0;
   }
 
-  nav li {
+  nav a {
     padding: .9rem 0;
   }
 
