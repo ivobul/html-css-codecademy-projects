@@ -31,12 +31,17 @@
 
 **[Learn CSS - Codecademy](https://www.codecademy.com/learn/learn-css)**
 
-## How to Make a Website | Projects
-&nbsp;&nbsp;1. Amazing Space<br>
-&nbsp;&nbsp;2. Building a Personal Portfolio<br>
-&nbsp;&nbsp;3. Codebrainery.io<br>
-&nbsp;&nbsp;4. Common Cents Party<br>
-&nbsp;&nbsp;5. Cupful Cafe
+## How to Make a Website with NameCheap | Projects
+1. Site Structure
+- [Common Cents Party - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Common%20Cents%20Party)
+2. A Closer Look at CSS
+- [Cupful Cafe - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Cupful%20Cafe)
+3. Boundaries and Space
+- [Amazing Space - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Amazing%20Space)
+4. Building with Bootstrap
+- [Codebrainery.io - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Codebrainery.io)
+5. Build, Deploy, and Host a Personal Portfolio with Namecheap
+- [Building a Personal Portfolio - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Building%20a%20Personal%20Portfolio)
 
 **[Make a Website - Codecademy](https://www.codecademy.com/learn/make-a-website)**
 
