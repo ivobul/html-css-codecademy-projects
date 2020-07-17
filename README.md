@@ -46,13 +46,15 @@
 **[Make a Website - Codecademy](https://www.codecademy.com/learn/make-a-website)**
 
 ## Learn Responsive Design | Projects
-&nbsp;&nbsp;1. Tsunami Coffee
+1. Learn Responsive Design
+- [Tsunami Coffee - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Tsunami%20Coffee)
 
 **[Learn Responsive Design - Codecademy](https://www.codecademy.com/learn/learn-responsive-design)**
 
 ## Learn Bootstrap | Projects
-&nbsp;&nbsp;1. Adhoc<br>
-&nbsp;&nbsp;2. Recreate a painting using Bootstrap's grid
+1. Learn Bootstrap
+- [Adhoc - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Adhoc)
+- [Recreate a painting using Bootstrap's grid - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Recreate%20a%20painting%20using%20Bootstrap's%20grid)
 
 **[Learn Bootstrap - Codecademy](https://www.codecademy.com/learn/learn-bootstrap)**
 
