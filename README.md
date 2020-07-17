@@ -2,13 +2,13 @@
 
 ## Learn HTML | Projects
 1. Elements and Structure
-- Fashion Blog - Freeform Project
+- [Fashion Blog - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Fashion%20Blog)
 2. Tables
-- Wine Festival Schedule - Freeform Project
+- [Wine Festival Schedule - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Wine%20Festival%20Schedule)
 3. Forms
-- Form a Story - Freeform Project
+- [Form a Story - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Form%20a%20Story)
 4. Semantic HTML
-- New York City Blog - Freeform Project
+- [New York City Blog - Freeform Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/New%20York%20City%20Blog)
 
 **[Learn HTML - Codecademy](https://www.codecademy.com/learn/learn-html)**
 
