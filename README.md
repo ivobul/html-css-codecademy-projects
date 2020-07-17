@@ -1,10 +1,14 @@
 # HTML & CSS | Codecademy Projects
 
 ## Learn HTML | Projects
-&nbsp;&nbsp;1. Fashion Blog<br>
-&nbsp;&nbsp;2. Form a Story<br>
-&nbsp;&nbsp;3. New York City Blog<br>
-&nbsp;&nbsp;4. Wine Festival Schedule
+1. Elements and Structure
+- Fashion Blog - Freeform Project
+2. Tables
+- Wine Festival Schedule - Freeform Project
+3. Forms
+- Form a Story - Freeform Project
+4. Semantic HTML
+- New York City Blog - Freeform Project
 
 **[Learn HTML - Codecademy](https://www.codecademy.com/learn/learn-html)**
 
