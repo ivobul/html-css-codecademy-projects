@@ -48,5 +48,5 @@
 - [Adhoc (Freeform Project)](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Adhoc)
 - [Recreate a painting using Bootstrap's grid (Freeform Project)](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Recreate%20a%20painting%20using%20Bootstrap's%20grid)
 
-## Contributing
+### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
