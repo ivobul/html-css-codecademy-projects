@@ -1,0 +1,165 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background-color: #fff;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+  left: 0;
+  overflow-y: auto;
+  padding: 30px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul li { 
+  display: inline-block;
+  list-style: none; 
+}
+
+.navigation a {
+  color: #736B92;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+
+a.logo {
+  color: #2176FF;
+  font-family: 'Amatic SC',sans-serif;
+  font-size: 2.125rem;
+  padding: 0 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1418290232843-5d7a0bd93f7d?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb");
+  background-position: center top;
+  background-size: cover;
+  border-bottom: 1px solid #dddddd;
+  height: 700px;
+  position: relative;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+}
+
+.banner-text {
+  position: relative;
+  top: 200px;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.75rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #2176FF;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 1.875rem;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner h2 {
+  font-size: 7.5rem;
+  margin: -40px 0px 80px 0px;
+}
+.content {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-links-and-buttons/project/mountain1.jpg');
+  background-position: center top;
+  background-size: cover;
+  border-bottom: 1px solid #eeeeee;
+  margin: 0 auto;
+  overflow-y: auto;
+  padding: 80px 0px;
+  position: relative;
+  text-align: center;
+}
+
+p {
+  color: #000;
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.125rem;
+  line-height: 42px;
+  text-align: left;
+}
+
+.description {
+  display: inline-block;
+  width: 70%;
+}
+
+.activities-panel {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.activities-panel h2 {
+  width: 100%;
+}
+
+.activity {
+  align-items: center;
+  background-color: #2176FF;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 1.875rem;
+  height: 200px;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 240px;
+}
+
+.footer {
+  background-color: #2176FF;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-size: .875rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+a {
+  cursor: default;
+  text-decoration-line: none;
+}
