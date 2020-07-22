@@ -1,0 +1,143 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+img {
+  border-style: none;
+}
+
+/* General styling */
+.container {
+  padding: 3rem 1rem 1rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+span {
+  font-weight: bold;
+}
+h1 {
+  color: khaki;
+  font-size: 6.25rem;
+}
+h2 {
+  color: white;
+  font-size: 2rem;
+}
+h3 {
+  color: black;
+  font-size: 1rem;
+}
+p {
+  padding: 1rem 0;
+}
+span {
+  color: blue;
+}
+
+img {
+  display: block;
+  margin: 2rem 0 1.5rem;
+}
+
+/* Header */
+header {
+  background: #8b8c91 url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg) no-repeat;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* Section */
+/* Brushes */
+.brushes h2 {
+  background-color: mediumspringgreen;
+}
+/* Frames */
+.frames h2 {
+  background-color: lightcoral;
+}
+/* Paint */
+.paint h2 {
+  background-color: skyblue;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.65rem;
+  }
+}
