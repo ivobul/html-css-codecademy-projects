@@ -37,6 +37,7 @@
 ## Build a Website with HTML, CSS, and Github Pages (Skill Path) | Projects
 - [Dasmoto's Arts & Crafts](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Dasmoto's%20Arts%20%26%20Crafts)
 - [Fotomatic](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Fotomatic)
+- [Flexbox: To-Do App](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Flexbox:%20To-Do%20App)
 
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
