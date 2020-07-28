@@ -57,6 +57,7 @@ footer {
 footer div {
   align-items: center;
   display: flex;
+  justify-content: center;
 }
 
 /* Customizations of Bootstrap classes */
@@ -129,5 +130,12 @@ section.container .row {
   .pill-black {
     background-color: #fff;
     color: #000;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  footer div {
+    display: flex;
+    flex-direction: column;
   }
 }
