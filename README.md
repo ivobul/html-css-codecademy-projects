@@ -29,7 +29,7 @@
 
 ## Learn Bootstrap | Projects
 - [Adhoc (Freeform Project)](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Adhoc)
-- [Recreate a painting using Bootstrap's grid (Freeform Project)](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Recreate%20a%20painting%20using%20Bootstrap's%20grid)
+- [Recreate a painting using Bootstrap's grid (Freeform Project)](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Recreate%20a%20painting%20using%20Bootstrap's%20grid) 
 
 ## Learn Navigation Design | Projects
 - [The Summit (Freeform Project)](https://github.com/ivobul/html-css-codecademy-projects/tree/master/The%20Summit)
