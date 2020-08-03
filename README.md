@@ -39,7 +39,7 @@
 - [Fotomatic](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Fotomatic)
 - [Flexbox: To-Do App](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Flexbox:%20To-Do%20App)
 
-### Links
+## Links
 - [Learn HTML](https://www.codecademy.com/learn/learn-html)
 - [Learn CSS](https://www.codecademy.com/learn/learn-css)
 - [How to Make a Website with NameCheap](https://www.codecademy.com/learn/make-a-website)
