@@ -39,5 +39,14 @@
 - [Fotomatic](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Fotomatic)
 - [Flexbox: To-Do App](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Flexbox:%20To-Do%20App)
 
+### Links
+- [Learn HTML](https://www.codecademy.com/learn/learn-html)
+- [Learn CSS](https://www.codecademy.com/learn/learn-css)
+- [How to Make a Website with NameCheap](https://www.codecademy.com/learn/make-a-website)
+- [Learn Responsive Design](https://www.codecademy.com/learn/learn-responsive-design)
+- [Learn Bootstrap](https://www.codecademy.com/learn/learn-bootstrap)
+- [Learn Navigation Design](https://www.codecademy.com/learn/learn-navigation-design)
+- [Build a Website with HTML, CSS, and Github Pages (Skill Path)](https://www.codecademy.com/learn/paths/learn-how-to-build-websites)
+
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
