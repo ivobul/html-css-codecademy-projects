@@ -1,0 +1,270 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Universal Styles */
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.375rem;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+h2,
+h3,
+h4 {
+  padding: 10px;
+}
+
+h2 { 
+  font-size: 2.1rem;
+}
+
+h3 { 
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header Section */
+header {
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+/* Main Section */
+.main {
+  margin: auto;
+  opacity: 0.9;
+  padding-top: 69px;
+  width: 1200px;
+}
+
+/* Mission Section */
+#mission {
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg) no-repeat center;
+  background-size: cover;
+  height: 700px;
+  padding-top: 70px;
+}
+
+#mission .content {
+  background-color: black;
+  margin: auto;
+  width: 100%;
+}
+
+/* Store Section */
+#store {
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+  width: 1000px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  display: block;
+  height: 200px;
+  margin: 10px;
+  width: 300px;
+}
+
+.item span {
+  display: block;
+  padding: 10px 5px 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Location Section */
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+#locations {
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  margin-top: 120px;
+  padding: 70px 0;
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Contact Section */
+#contact {
+  height: 200px;
+}
+#contact h2 {
+  padding-top: 20px;
+}
+
+/* Footer Section */
+footer {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    flex-direction: column; 
+    height: initial; 
+    padding: 20px 0 10px; 
+    position: relative;
+  }
+
+  nav span {
+    display: block; 
+    text-align: center;
+  }
+
+  .main, 
+  #mission, 
+  #store, 
+  #locations .flex-container { 
+    width: 100%; 
+  }
+
+  #locations, 
+  #store { 
+    height: initial; 
+  }
+
+  footer { 
+    text-align: center; 
+  }
+}
+
