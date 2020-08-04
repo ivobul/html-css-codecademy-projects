@@ -38,6 +38,7 @@
 - [Dasmoto's Arts & Crafts](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Dasmoto's%20Arts%20%26%20Crafts)
 - [Fotomatic](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Fotomatic)
 - [Flexbox: To-Do App](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Flexbox:%20To-Do%20App)
+- [Tea Cozy](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Tea%20Cozy)
 
 ## Links
 - [Learn HTML](https://www.codecademy.com/learn/learn-html)
