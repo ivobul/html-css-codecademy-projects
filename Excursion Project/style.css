@@ -138,7 +138,7 @@ footer {
   text-align: right;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 576px) {
   main h1 {
     font-size: 2rem;
   }
