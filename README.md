@@ -39,6 +39,7 @@
 - [Fotomatic](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Fotomatic)
 - [Flexbox: To-Do App](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Flexbox:%20To-Do%20App)
 - [Tea Cozy](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Tea%20Cozy)
+- [Excursion Project](https://github.com/ivobul/html-css-codecademy-projects/tree/master/Excursion%20Project)
 
 ## Links
 - [Learn HTML](https://www.codecademy.com/learn/learn-html)
