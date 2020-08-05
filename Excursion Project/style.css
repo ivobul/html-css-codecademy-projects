@@ -1,0 +1,153 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+/* General styles */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding: 0 1.5rem;
+}
+
+p {
+  color: gray;
+  font-size: 1.3125rem;
+  font-weight: 400;
+}
+
+a {
+  color: aquamarine;
+  display: block;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+
+/* Main */
+main h1 {
+  font-size: 3.125rem;
+  font-weight: normal;
+  padding-top: 1.7rem;
+}
+
+main video {
+  margin-top: 1.5rem;
+}
+
+/* Supporting content */
+aside h2,
+aside .para {
+  padding-top: 1.7rem;
+}
+
+aside h2 {
+  font-size: 2.625rem;
+  font-weight: 300;
+}
+
+aside .para {
+  padding-bottom: 1.2rem;
+}
+
+aside .icon {
+  padding-top: 1.3rem;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 1rem;
+  text-align: right;
+}
+
+@media only screen and (max-width: 520px) {
+  main h1 {
+    font-size: 2rem;
+  }
+
+  aside h2 {
+    font-size: 1.625rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
