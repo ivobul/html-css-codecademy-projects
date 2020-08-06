@@ -177,13 +177,13 @@ nav span {
 }
 
 .item {
+  margin: 10px;
   padding: 5px;
 }
 
 .item img {
   display: block;
   height: 200px;
-  margin: 10px;
   width: 300px;
 }
 
@@ -239,6 +239,18 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+  h2 { 
+    font-size: 1.8rem;
+  }
+
+  h3 { 
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
   header {
     flex-direction: column; 
     height: initial; 
@@ -264,7 +276,13 @@ footer {
   }
 
   footer { 
+    padding-left: 0;
     text-align: center; 
+  }
+
+  #contact h5,
+  footer h5 {
+    font-size: .875rem;
   }
 }
 
