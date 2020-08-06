@@ -570,7 +570,7 @@ footer .button {
   }
   
   #banner h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: left;
   }
 
@@ -584,6 +584,11 @@ footer .button {
 
   #color-guide .introduction h2 {
     text-align: left;
+  }
+
+  .color .information h3 {
+    text-align: left;
+    width: 100%;
   }
 
   footer p {
