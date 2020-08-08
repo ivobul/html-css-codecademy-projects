@@ -82,9 +82,14 @@ a {
 }
 
 /* Universal Styles */
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
+  height: 100%;
 }
 
 .main-content {
