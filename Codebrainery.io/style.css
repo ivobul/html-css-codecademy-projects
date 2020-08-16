@@ -112,7 +112,7 @@ section.container .row {
   min-height: 33px;
 }
 
-@media only screen and (max-width: 540px) {
+@media screen and (max-width: 540px) {
  header .row {
     display: block;
     text-align: center;
@@ -133,7 +133,7 @@ section.container .row {
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
   footer div {
     display: flex;
     flex-direction: column;
