@@ -36,19 +36,15 @@ html {
   box-sizing: inherit;
 }
 
-/* Min height */
-html {
-  height: 100%;
-}
-
+/* Sizing */
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Typography */
 body {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 * {
@@ -75,10 +71,15 @@ video {
 
 img {
   border-style: none;
+  display: block;
 }
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* General styles */
@@ -170,4 +171,30 @@ footer a {
 .contact-btn a:active {
   position: relative;
   top: 3px;
+}
+
+@media screen and (max-width: 576px) {
+  footer ul {
+    display: block;
+    padding-left: 0;
+  }
+
+  footer ul li {
+    display: block;
+    margin: 0;
+    padding-bottom: 8px;
+    text-align: center;
+    width: 100%;
+  }
+
+  footer ul li:last-child {
+    padding-bottom: 0;
+  }
+
+  .contact-btn { 
+    float: none; 
+    margin: 0; 
+    text-align: center; 
+    width: 100%; 
+  }
 }
