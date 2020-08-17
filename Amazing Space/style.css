@@ -106,12 +106,11 @@ body {
   padding: 30px;
 }
 
-.learn-more {
+a.learn-more {
   color: #0071BC;
   display: block;
   font-weight: bold;
   margin-top: 20px;
-  text-decoration: none;
 }
 
 .space-container {
