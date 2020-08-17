@@ -36,7 +36,7 @@ html {
   box-sizing: inherit;
 }
 
-/* Sizing */
+/* Sizing - Height */
 body {
   min-height: 100vh;
 }
@@ -76,10 +76,6 @@ img {
 
 a {
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 /* General styles */
