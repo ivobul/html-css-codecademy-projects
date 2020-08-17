@@ -36,19 +36,15 @@ html {
   box-sizing: inherit;
 }
 
-/* Min height */
-html {
-  height: 100%;
-}
-
+/* Sizing - Height */
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Typography */
 body {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 * {
@@ -204,19 +200,19 @@ footer .container {
   padding: 5em 0;
 }
 
-@media only screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .masthead {
     padding-top: 0;
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .supporting img {
     display: none;
   }
 }
 
-@media only screen and (max-width: 470px) {
+@media screen and (max-width: 470px) {
   .rating h1 {
     font-size: 2rem;
   }
@@ -231,7 +227,7 @@ footer .container {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media screen and (max-width: 376px) {
   .masthead li {
     display: block;
     text-align: center;
