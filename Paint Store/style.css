@@ -36,19 +36,15 @@ html {
   box-sizing: inherit;
 }
 
-/* Min height */
-html {
-  height: 100%;
-}
-
+/* Sizing - Height */
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Typography */
 body {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 * {
@@ -77,13 +73,13 @@ img {
   border-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Universal Styles */
 body {
   font-family: "Open Sans", sans-serif;
-}
-
-a {
-  text-decoration: none;
 }
 
 strong {
@@ -487,7 +483,7 @@ footer .button {
   padding: 1.25rem 3.75rem;
 }
 
-@media only screen and (max-width: 990px) {
+@media screen and (max-width: 990px) {
   body {
     font-size: .875rem;
   }
@@ -501,7 +497,7 @@ footer .button {
   }
 }
 
-@media only screen and (max-width: 820px) {
+@media screen and (max-width: 820px) {
   #banner h1 {
     font-size: 6rem;
   }
@@ -550,7 +546,7 @@ footer .button {
   } 
 }
 
-@media only screen and (max-width: 590px) {
+@media screen and (max-width: 590px) {
   header {
     align-items: stretch;
     flex-direction: column;  
