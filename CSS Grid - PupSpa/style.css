@@ -36,19 +36,15 @@ html {
   box-sizing: inherit;
 }
 
-/* Min height */
-html {
-  height: 100%;
-}
-
+/* Sizing */
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Typography */
 body {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 * {
@@ -79,6 +75,10 @@ img {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* General styles */
@@ -219,7 +219,7 @@ footer {
   justify-content: center;
 }
 
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 600px){
   .grid {
     grid-template-columns: 100%;
     grid-template-rows: 5% 25% 15% repeat(3, 10%) repeat(2, 10%) 5%; 
