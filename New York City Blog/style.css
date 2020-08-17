@@ -36,19 +36,15 @@ html {
   box-sizing: inherit;
 }
 
-/* Min height */
-html {
-  height: 100%;
-}
-
+/* Sizing - Height */
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Typography */
 body {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 * {
@@ -75,6 +71,7 @@ video {
 
 img {
   border-style: none;
+  display: block;
 }
 
 table {
@@ -82,7 +79,7 @@ table {
 	border-spacing: 0;
 }
 
-/* General styling */
+/* General styles */
 body {
 	background: #e6e6e6;
 }
@@ -133,7 +130,6 @@ article {
 
 /* Figure */
 img {
-  display: block;
 	height: 300px;
   position: relative;
   width: 400px;
@@ -206,7 +202,7 @@ footer a {
 	width: 100%;
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   nav ul {
     flex-direction: column;
   }
