@@ -36,19 +36,15 @@ html {
   box-sizing: inherit;
 }
 
-/* Min height */
-html {
-  height: 100%;
-}
-
+/* Sizing - Height */
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Typography */
 body {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 * {
@@ -82,7 +78,7 @@ table {
 	border-spacing: 0;
 }
 
-/* General styling */
+/* General styles */
 body {
   background-color: #242f44;
   color: white;
@@ -160,7 +156,7 @@ footer h3 {
   font-size: 14px;
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   h1, 
   .table-h1 {
     font-size: 1.75rem;
