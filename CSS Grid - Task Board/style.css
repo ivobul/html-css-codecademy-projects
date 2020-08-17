@@ -36,19 +36,15 @@ html {
   box-sizing: inherit;
 }
 
-/* Min height */
-html {
-  height: 100%;
-}
-
+/* Sizing - Height */
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Typography */
 body {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 * {
@@ -118,7 +114,9 @@ body {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-	width: 1000px;
+  margin: 100px auto 0;
+  padding: 0 1.5rem;
+  width: 1000px;
 }
 
 .search-bar {
@@ -179,13 +177,6 @@ input {
 .taskgroup-heading {
 	margin-left: 15px;
 	margin-top: 7px;
-}
-
-.site-body {
-	position: absolute;
-	top: 100px;
-	left: 50%;
-  transform: translate(-50%);
 }
 
 .card {
