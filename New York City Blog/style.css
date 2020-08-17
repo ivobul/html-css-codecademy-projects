@@ -109,6 +109,10 @@ nav li a {
 	text-decoration: none;
 }
 
+nav li a:visited {
+  color: white;
+}
+
 nav li a:hover {
 	background-color: #111;
 }
