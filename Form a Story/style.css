@@ -36,19 +36,15 @@ html {
   box-sizing: inherit;
 }
 
-/* Min height */
-html {
-  height: 100%;
-}
-
+/* Sizing - Height */
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Typography */
 body {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 * {
@@ -82,7 +78,7 @@ table {
 	border-spacing: 0;
 }
 
-/* General styling */
+/* General styles */
 body {
   background-color: rgb(255, 199, 64);
   font-family: "Open Sans", Arial;
@@ -218,7 +214,7 @@ a {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   #main {
     border-radius: 0;
     height: 100%;
