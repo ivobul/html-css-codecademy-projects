@@ -36,19 +36,15 @@ html {
   box-sizing: inherit;
 }
 
-/* Min height */
-html {
-  height: 100%;
-}
-
+/* Sizing - Height */
 body {
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Typography */
 body {
   font-size: 1rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 * {
@@ -82,14 +78,8 @@ a {
 }
 
 /* Universal Styles */
-html,
-body {
-  overflow-x: hidden;
-}
-
 body {
   font-family: "Roboto", sans-serif;
-  height: 100%;
 }
 
 .main-content {
@@ -115,7 +105,7 @@ body {
   display: block;
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
   }
@@ -165,7 +155,7 @@ header .mobile {
   display: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   header .desktop {
     display: none;
   }
@@ -223,7 +213,7 @@ header .mobile {
   font-size: 1.25rem;
   line-height: 1.4;
   margin-top: 2rem;
-  width: 26.5rem;
+  width: 424px;
 }
 
 #sign-up-cta h1 {
@@ -252,7 +242,7 @@ header .mobile {
   padding: 1.25rem 7.25rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
     height: 28rem;
@@ -270,6 +260,7 @@ header .mobile {
 
   #sign-up-cta .content {
     margin-top: 0;
+    width: 100%;
   }
 
   #sign-up-cta .email {
@@ -287,7 +278,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
   #sign-up-section {
     height: 20rem;
   }
@@ -298,12 +289,6 @@ header .mobile {
 
   #sign-up-cta h2 {
     font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  #sign-up-cta .content {
-    width: 100%;
   }
 }
 
@@ -346,7 +331,7 @@ header .mobile {
   line-height: 1.2;
 }
 
-@media only screen and (max-width: 890px) {
+@media screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
     font-weight: normal;
@@ -359,7 +344,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
     padding: 0;
@@ -401,7 +386,7 @@ header .mobile {
   padding: 0 1%;
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
@@ -453,7 +438,7 @@ header .mobile {
   height: 1.875rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   #quotes-section .content {
     padding: 1.875rem .625rem;
   }
@@ -487,7 +472,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (max-width: 760px) {
+@media screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
