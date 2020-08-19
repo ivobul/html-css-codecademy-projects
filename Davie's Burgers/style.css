@@ -157,7 +157,7 @@ nav a {
 }
 
 /* Content Button */
-.button {
+a.button {
   border: 1px solid blue;
   border-radius: 4px;
   color: #05A8AA;
