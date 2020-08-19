@@ -53,6 +53,11 @@ body {
   line-height: inherit;
 }
 
+a,
+a:visited {
+  color: inherit;
+}
+
 /* Resetting specific element styles */
 ol,
 ul {
