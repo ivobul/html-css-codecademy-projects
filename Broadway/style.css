@@ -144,7 +144,7 @@ main h1 {
   height: 750px;
 }
 
-.btn-main {
+a.btn-main {
   background-color: #333;
   color: #fff;
   font-family: 'Raleway', sans-serif;
