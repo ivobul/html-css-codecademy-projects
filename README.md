@@ -1,5 +1,3 @@
-# HTML & CSS | Codecademy Projects
-
 ## Learn HTML | Projects
 - [Fashion Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Fashion%20Blog)
 - [Wine Festival Schedule (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Wine%20Festival%20Schedule)
