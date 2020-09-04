@@ -1,45 +1,45 @@
 # Codecademy Projects
 
 ## Learn HTML | Projects
-- [Fashion Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Fashion%20Blog)
-- [Wine Festival Schedule (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Wine%20Festival%20Schedule)
-- [Form a Story (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Form%20a%20Story)
-- [New York City Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/New%20York%20City%20Blog)
+- Fashion Blog (Freeform Project)
+- Wine Festival Schedule (Freeform Project)
+- Form a Story (Freeform Project)
+- New York City Blog (Freeform Project)
 
 ## Learn CSS | Projects
-- [Healthy Recipes (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Healthy%20Recipes)
-- [Olivia Woodruff Portfolio (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Olivia%20Woodruff%20Portfolio)
-- [Davie's Burgers (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Davie's%20Burgers)
-- [Broadway (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Broadway)
-- [Paint Store (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Paint%20Store)
-- [Typography (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Typography)
-- [CSS Grid - PupSpa (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20PupSpa)
-- [CSS Grid - Task Board (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20Task%20Board)
-- [CSS Grid - Architecture Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20Architecture%20Blog)
+- Healthy Recipes (Freeform Project)
+- Olivia Woodruff Portfolio (Freeform Project)
+- Davie's Burgers (Freeform Project)
+- Broadway (Freeform Project)
+- Paint Store (Freeform Project)
+- Typography (Freeform Project)
+- CSS Grid - PupSpa (Freeform Project)
+- CSS Grid - Task Board (Freeform Project)
+- CSS Grid - Architecture Blog (Freeform Project)
 
 ## How to Make a Website with NameCheap | Projects
-- [Common Cents Party (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Common%20Cents%20Party)
-- [Cupful Cafe (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Cupful%20Cafe)
-- [Amazing Space (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Amazing%20Space)
-- [Codebrainery.io (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Codebrainery.io)
-- [Building a Personal Portfolio (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Building%20a%20Personal%20Portfolio)
+- Common Cents Party (Freeform Project)
+- Cupful Cafe (Freeform Project)
+- Amazing Space (Freeform Project)
+- Codebrainery.io (Freeform Project)
+- Building a Personal Portfolio (Freeform Project)
 
 ## Learn Responsive Design | Projects
-- [Tsunami Coffee (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Tsunami%20Coffee)
+- Tsunami Coffee (Freeform Project)
 
 ## Learn Bootstrap | Projects
-- [Adhoc (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Adhoc)
-- [Recreate a painting using Bootstrap's grid (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Recreate%20a%20painting%20using%20Bootstrap's%20grid) 
+- Adhoc (Freeform Project)
+- Recreate a painting using Bootstrap's grid (Freeform Project)
 
 ## Learn Navigation Design | Projects
-- [The Summit (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/The%20Summit)
+- The Summit (Freeform Project)
 
 ## Build a Website with HTML, CSS, and Github Pages (Skill Path) | Projects
-- [Dasmoto's Arts & Crafts](https://ivobul.github.io/html-css-codecademy-projects/Dasmoto's%20Arts%20%26%20Crafts)
-- [Fotomatic](https://ivobul.github.io/html-css-codecademy-projects/Fotomatic)
-- [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/Flexbox:%20To-Do%20App)
-- [Tea Cozy](https://ivobul.github.io/html-css-codecademy-projects/Tea%20Cozy)
-- [Excursion Project](https://ivobul.github.io/html-css-codecademy-projects/Excursion%20Project)
+- Dasmoto's Arts & Crafts
+- Fotomatic
+- Flexbox: To-Do App
+- Tea Cozy
+- Excursion Project
 
 ## Links
 - [Learn HTML](https://www.codecademy.com/learn/learn-html)
