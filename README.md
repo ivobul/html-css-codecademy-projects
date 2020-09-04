@@ -1,12 +1,12 @@
 # LEARN HTML & CSS | CODECADEMY PROJECTS
 
-## Learn HTML | Projects
+## Learn HTML
 - Fashion Blog (Freeform Project)
 - Wine Festival Schedule (Freeform Project)
 - Form a Story (Freeform Project)
 - New York City Blog (Freeform Project)
 
-## Learn CSS | Projects
+## Learn CSS
 - Healthy Recipes (Freeform Project)
 - Olivia Woodruff Portfolio (Freeform Project)
 - Davie's Burgers (Freeform Project)
@@ -17,24 +17,24 @@
 - CSS Grid - Task Board (Freeform Project)
 - CSS Grid - Architecture Blog (Freeform Project)
 
-## How to Make a Website with NameCheap | Projects
+## How to Make a Website with NameCheap
 - Common Cents Party (Freeform Project)
 - Cupful Cafe (Freeform Project)
 - Amazing Space (Freeform Project)
 - Codebrainery.io (Freeform Project)
 - Building a Personal Portfolio (Freeform Project)
 
-## Learn Responsive Design | Projects
+## Learn Responsive Design
 - Tsunami Coffee (Freeform Project)
 
-## Learn Bootstrap | Projects
+## Learn Bootstrap
 - Adhoc (Freeform Project)
 - Recreate a painting using Bootstrap's grid (Freeform Project)
 
-## Learn Navigation Design | Projects
+## Learn Navigation Design
 - The Summit (Freeform Project)
 
-## Build a Website with HTML, CSS, and Github Pages (Skill Path) | Projects
+## Build a Website with HTML, CSS, and Github Pages (Skill Path)
 - Dasmoto's Arts & Crafts
 - Fotomatic
 - Flexbox: To-Do App
