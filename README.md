@@ -1,4 +1,4 @@
-# Codecademy Projects
+# LEARN HTML & CSS | CODECADEMY PROJECTS
 
 ## Learn HTML | Projects
 - Fashion Blog (Freeform Project)
