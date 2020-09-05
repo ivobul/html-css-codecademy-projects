@@ -126,6 +126,7 @@ form label, form span {
   text-align: right;
   width: 220px;
 }
+
 form span {
   width: 230px;
 }
@@ -174,6 +175,7 @@ select {
 textarea {
   height: 230px;
   max-width: 350px;
+  resize: vertical;
 }
 
 .text-area label {
