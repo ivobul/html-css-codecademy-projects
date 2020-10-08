@@ -50,5 +50,5 @@
 - [Learn Navigation Design](https://www.codecademy.com/learn/learn-navigation-design)
 - [Build a Website with HTML, CSS, and Github Pages (Skill Path)](https://www.codecademy.com/learn/paths/learn-how-to-build-websites)
 
-### Contributing
+## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
