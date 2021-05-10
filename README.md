@@ -50,6 +50,10 @@
 - [Learn Navigation Design](https://www.codecademy.com/learn/learn-navigation-design)
 - [Build a Website with HTML, CSS, and Github Pages (Skill Path)](https://www.codecademy.com/learn/paths/learn-how-to-build-websites)
 
+## Learn Intermediate CSS
+- [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/Flexbox:%20To-Do%20App)
+- [Tea Cozy](https://ivobul.github.io/html-css-codecademy-projects/Tea%20Cozy)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
