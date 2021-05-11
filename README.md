@@ -31,7 +31,7 @@
 - [Building a Personal Portfolio](https://ivobul.github.io/html-css-codecademy-projects/personal-portfolio)
 
 ## Learn Bootstrap
-- [Adhoc](https://ivobul.github.io/html-css-codecademy-projects/Adhoc)
+- [Adhoc](https://ivobul.github.io/html-css-codecademy-projects/adhoc)
 - [Recreate a painting using Bootstrap's grid](https://ivobul.github.io/html-css-codecademy-projects/recreate-painting-bootstrap)
 
 ## Build a Website with HTML, CSS, and Github Pages (Skill Path)
