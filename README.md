@@ -21,6 +21,7 @@
 - [CSS Grid - Task Board](https://ivobul.github.io/html-css-codecademy-projects/css-grid-task-board)
 - [Transitions - 20,000 Leagues Under the Sea](https://ivobul.github.io/html-css-codecademy-projects/transitions-book)
 - [Tsunami Coffee](https://ivobul.github.io/html-css-codecademy-projects/tsunami-coffee)
+- [Curious Ornithologist](https://ivobul.github.io/html-css-codecademy-projects/curious-ornithologist)
 
 ## How to Make a Website with NameCheap
 - [Common Cents Party (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/common-cents-party)
