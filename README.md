@@ -7,15 +7,15 @@
 - [New York City Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/new-york-city-blog)
 
 ## Learn CSS
-- [Healthy Recipes (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Healthy%20Recipes)
-- [Olivia Woodruff Portfolio (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Olivia%20Woodruff%20Portfolio)
-- [Davie's Burgers (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Davie's%20Burgers)
-- [Broadway (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Broadway)
-- [Paint Store (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Paint%20Store)
-- [Typography (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Typography)
-- [CSS Grid - PupSpa (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20PupSpa)
-- [CSS Grid - Task Board (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20Task%20Board)
-- [CSS Grid - Architecture Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20Architecture%20Blog)
+- [Healthy Recipes (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/healthy-recipes)
+- [Olivia Woodruff Portfolio (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/olivia-woodruff-portfolio)
+- [Davie's Burgers (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/davie-burgers)
+- [Broadway (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/broadway)
+- [Paint Store (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/paint-store)
+- [Typography (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/typography)
+- [CSS Grid - PupSpa (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/css-grid-pup-spa)
+- [CSS Grid - Task Board (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/css-grid-task-board)
+- [CSS Grid - Architecture Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/css-grid-architecture-blog)
 
 ## How to Make a Website with NameCheap
 - [Common Cents Party (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Common%20Cents%20Party)
