@@ -30,12 +30,9 @@
 - [Codebrainery.io](https://ivobul.github.io/html-css-codecademy-projects/codebrainery)
 - [Building a Personal Portfolio](https://ivobul.github.io/html-css-codecademy-projects/personal-portfolio)
 
-## Learn Responsive Design
-- [Tsunami Coffee (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/tsunami-coffee)
-
 ## Learn Bootstrap
-- [Adhoc (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Adhoc)
-- [Recreate a painting using Bootstrap's grid (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/recreate-painting-bootstrap)
+- [Adhoc](https://ivobul.github.io/html-css-codecademy-projects/Adhoc)
+- [Recreate a painting using Bootstrap's grid](https://ivobul.github.io/html-css-codecademy-projects/recreate-painting-bootstrap)
 
 ## Learn Navigation Design
 - [The Summit (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/summit)
