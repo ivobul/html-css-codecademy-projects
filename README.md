@@ -25,21 +25,21 @@
 - [Building a Personal Portfolio (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/personal-portfolio)
 
 ## Learn Responsive Design
-- [Tsunami Coffee (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Tsunami%20Coffee)
+- [Tsunami Coffee (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/tsunami-coffee)
 
 ## Learn Bootstrap
 - [Adhoc (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Adhoc)
-- [Recreate a painting using Bootstrap's grid (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/Recreate%20a%20painting%20using%20Bootstrap's%20grid)
+- [Recreate a painting using Bootstrap's grid (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/recreate-painting-bootstrap)
 
 ## Learn Navigation Design
-- [The Summit (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/The%20Summit)
+- [The Summit (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/summit)
 
 ## Build a Website with HTML, CSS, and Github Pages (Skill Path)
-- [Dasmoto's Arts & Crafts](https://ivobul.github.io/html-css-codecademy-projects/Dasmoto's%20Arts%20&%20Crafts)
-- [Fotomatic](https://ivobul.github.io/html-css-codecademy-projects/Fotomatic)
-- [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/Flexbox:%20To-Do%20App)
-- [Tea Cozy](https://ivobul.github.io/html-css-codecademy-projects/Tea%20Cozy)
-- [Excursion Project](https://ivobul.github.io/html-css-codecademy-projects/Excursion%20Project)
+- [Dasmoto's Arts & Crafts](https://ivobul.github.io/html-css-codecademy-projects/dasmoto-arts-crafts)
+- [Fotomatic](https://ivobul.github.io/html-css-codecademy-projects/fotomatic)
+- [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/flexbox-to-do-app)
+- [Tea Cozy](https://ivobul.github.io/html-css-codecademy-projects/tea-cozy)
+- [Excursion Project](https://ivobul.github.io/html-css-codecademy-projects/excursion-project)
 
 ## Learn Intermediate CSS
 - [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/Flexbox:%20To-Do%20App)
