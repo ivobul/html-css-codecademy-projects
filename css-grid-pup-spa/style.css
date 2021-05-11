@@ -1,156 +1,75 @@
-/* CSS Reset */
-/* Resetting margins, paddings, and borders */
-html, body,
-h1, h2, h3, h4, h5, h6,
-a, p, span,
-em, small, strong,
-sub, sup,
-mark, del, ins, strike,
-abbr, dfn,
-blockquote, q, cite,
-code, pre,
-ol, ul, li, dl, dt, dd,
-div, section, article,
-main, aside, nav,
-header, hgroup, footer,
-img, figure, figcaption,
-address, time,
-audio, video,
-canvas, iframe,
-details, summary,
-fieldset, form, label, legend,
-table, caption,
-tbody, tfoot, thead,
-tr, th, td {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/* Box sizing */
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-/* Sizing */
 body {
-  min-height: 100vh;
-}
-
-/* Typography */
-body {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-* {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-
-a,
-a:visited {
-  color: inherit;
-}
-
-/* Resetting specific element styles */
-ol,
-ul {
-  list-style: none;
-}
-
-img,
-video {
-  max-width: 100%;
-}
-
-img {
-  border-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* General styles */
-body {
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   color: #db6363;
   text-align: center;
 }
 
 .grid {
   display: grid;
-  grid-template: 5% 699px 15% 20% 15% 5% / 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 20px;
+  grid-template: 100px 8fr 5fr 4fr 5fr 80px / repeat(6, 1fr);
+  grid-gap: 20px;
 }
 
-header, 
-.banner, 
-footer {
+header {
+  display: grid;
   grid-column-start: 1;
   grid-column-end: 7;
 }
 
-header {
-  background-color: #ffffff;
+.title {
+  margin: auto;
   color: #dc6363;
-  display: flex;
-  padding: 1.5rem 2rem;
-  justify-content: center;
+  font-family: Poppins;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 .banner {
+  padding: 3%;
   background-color: #db6363;
-  color: #fff;
+  color: #ffffff;
   font-family: Poppins;
-  font-size: 4rem;
+  font-size: 3em;
   font-weight: 300;
   letter-spacing: 3.7px;
-  padding: 0 2rem;
+  grid-column-start: 1;
+  grid-column-end: 7;
 }
 
-.banner h1 {
-  padding: 1rem 0 4rem;
+p, .banner-contents {
+  max-width: 80%;
+  margin: auto;
+}
+
+img {
+  height: 5em;
+  margin-left: 75px;
 }
 
 .about {
   background-color: #f0f0f0;
+  display: grid;
   grid-column-start: 1;
   grid-column-end: 7;
-  padding: 4rem 0;
-  display: flex;
-  justify-content: center;
 }
 
 .text {
-  align-items: center;
   color: #2f2d2d;
-  display: flex;
   font-family: Poppins;
-  font-size: 1.125rem;
-  font-weight: 500;
-  height: 100%;
+  font-size: 22px;
+  font-weight: 700;
   letter-spacing: 0.5px;
-  text-align: left;
-  justify-content: center;
-  width: 50%;
 }
 
 .box {
   background-color: #2f2f2f;
   color: #ffffff;
+  display: grid;
   font-family: Poppins;
-  font-size: 1.25rem;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.5px;
   text-align: center;
-  padding: 1.2rem .5rem;
 }
 
 .address {
@@ -165,33 +84,19 @@ header {
   grid-column: 5 / span 2;
 }
 
-.marker {
-  width: 51px;
-  height: 82px;
-}
-
-.clock {
-  width: 75px;
-  height: 75px;
-}
-
-.phone {
-  width: 98px;
-  height: 79px;
+.icon {
+  height: 80px;
+  margin: auto;
 }
 
 .testimonial {
-  align-items: center;
   background-color: #f0f0f0;
   color: #db6363;
-  display: flex;
+  display: grid;
   font-family: Poppins;
-  font-size: 1.25rem;
+  font-size: 18px;
   font-style: italic;
-  font-weight: 300;
-  justify-content: center;
   letter-spacing: 3.7px;
-  padding: 3rem 1rem;
 }
 
 .one {
@@ -203,85 +108,12 @@ header {
 }
 
 footer {
-  align-items: center;
   background-color: #db6363;
-  color: #fff;
-  display: flex;
+  color: #ffffff;
+  display: grid;
   font-family: Poppins;
-  font-size: .875rem;
-  font-weight: 300;
+  font-size: 16px;
   letter-spacing: 0.4px;
-  padding: 1rem 2rem;
-  justify-content: center;
-}
-
-@media screen and (max-width: 600px){
-  .grid {
-    grid-template-columns: 100%;
-    grid-template-rows: 5% 25% 15% repeat(3, 10%) repeat(2, 10%) 5%; 
-    grid-column-gap: 0;
-  }
-
-  .banner {
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 2;
-    letter-spacing: 1.9px;
-  }
-
-  .dog {
-    height: 237px;
-    padding-left: 50px;
-    width: 195px;
-  }
-
-  .about {
-    padding: 2rem 0;
-}
-
-  .text {
-    font-size: .875rem;
-    font-weight: 500;
-    width: 75%;
-  }
-
-  .box {
-    font-size: .875rem;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-  }
-
-  .address, 
-  .hours, 
-  .call-us, 
-  .one, 
-  .two {
-    grid-column-start: 1;
-    grid-column-end: 7;
-  }
-
-  .marker {
-    height: 40.4px;
-    width: 25.5px;
-  }
-
-  .clock {
-    height: 37.5px;
-    width: 37.6px;
-  }
-
-  .phone {
-    height: 39.5px;
-    width: 49px;
-  }
-
-  .testimonial {
-    align-items: center;
-    display: flex;
-    font-size: .9rem;
-    font-weight: 500;
-    justify-content: center;
-    letter-spacing: 0.3px;
-    padding: 2rem 1rem;
-  }
+  grid-column-start: 1;
+  grid-column-end: 7;
 }
