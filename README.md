@@ -46,6 +46,7 @@
 - [Tea Cozy](https://ivobul.github.io/html-css-codecademy-projects/Tea%20Cozy)
 - [CSS Grid - PupSpa (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20PupSpa)
 - [CSS Grid - Task Board (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20Task%20Board)
+- Transitions - 20,000 Leagues Under the Sea
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
