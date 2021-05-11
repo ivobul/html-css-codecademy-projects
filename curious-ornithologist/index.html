@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curious Ornithologist</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+  </head>
+
+  <body class="light">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">Home</li>
+        <li class="nav-item">Bird Families</li>
+        <li class="nav-item">About</li>
+
+        <li class="nav-item has-dropdown">
+          <a href="#">Theme</a>
+          <ul class="dropdown">
+            <li class="dropdown-item">
+              <a id="light" href="#">Light Mode</a>
+            </li>
+            <li class="dropdown-item">
+              <a id="dark" href="#">Dark Mode</a>
+            </li>
+            <li class="dropdown-item">
+              <a id="custom-theme" href="#">Custom Mode</a>
+            </li>
+          </ul>
+        </li>
+
+      </ul>
+    </nav>
+
+    <header>
+      <h1>A Curious Ornithologist</h1>
+
+      <p>Interact with night and daytime birds using different page themes!</p>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="">
+          <div id="grid" class="grid-wrapper">
+            <div id="header-image" class="card header hero col-num"></div>
+            <div class="card lrg subhead-1 col-num"></div>
+            <div class="card lrg subhead-2 col-num"></div>
+            <div class="card block-1"></div>
+            <div class="card block-2"></div>
+            <div class="card block-3"></div>
+            <div class="card block-4"></div>
+            <div class="card block-5"></div>
+            <div class="card block-6"></div>
+            <div class="card block-7"></div>
+          </div>
+        </div>
+    </div>
+    </main>
+  </body>
+</html>
