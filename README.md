@@ -18,10 +18,10 @@
 - [CSS Grid - Architecture Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/css-grid-architecture-blog)
 
 ## Learn Intermediate CSS
-- [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/Flexbox:%20To-Do%20App)
-- [Tea Cozy](https://ivobul.github.io/html-css-codecademy-projects/Tea%20Cozy)
-- [CSS Grid - PupSpa (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20PupSpa)
-- [CSS Grid - Task Board (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20Task%20Board)
+- [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/flexbox-to-do-app)
+- [Tea Cozy](https://ivobul.github.io/html-css-codecademy-projects/tea-cozy)
+- [CSS Grid - PupSpa](https://ivobul.github.io/html-css-codecademy-projects/css-grid-pup-spa)
+- [CSS Grid - Task Board](https://ivobul.github.io/html-css-codecademy-projects/css-grid-task-board)
 - [Transitions - 20,000 Leagues Under the Sea](https://ivobul.github.io/html-css-codecademy-projects/transitions-book)
 
 ## How to Make a Website with NameCheap
