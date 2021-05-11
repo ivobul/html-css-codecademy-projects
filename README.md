@@ -24,11 +24,11 @@
 - [Curious Ornithologist](https://ivobul.github.io/html-css-codecademy-projects/curious-ornithologist)
 
 ## How to Make a Website with NameCheap
-- [Common Cents Party (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/common-cents-party)
-- [Cupful Cafe (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/cupful-cafe)
-- [Amazing Space (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/amazing-space)
-- [Codebrainery.io (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/codebrainery)
-- [Building a Personal Portfolio (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/personal-portfolio)
+- [Common Cents Party](https://ivobul.github.io/html-css-codecademy-projects/common-cents-party)
+- [Cupful Cafe](https://ivobul.github.io/html-css-codecademy-projects/cupful-cafe)
+- [Amazing Space](https://ivobul.github.io/html-css-codecademy-projects/amazing-space)
+- [Codebrainery.io](https://ivobul.github.io/html-css-codecademy-projects/codebrainery)
+- [Building a Personal Portfolio](https://ivobul.github.io/html-css-codecademy-projects/personal-portfolio)
 
 ## Learn Responsive Design
 - [Tsunami Coffee (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/tsunami-coffee)
