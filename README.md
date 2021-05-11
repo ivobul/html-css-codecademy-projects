@@ -7,15 +7,12 @@
 - [New York City Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/new-york-city-blog)
 
 ## Learn CSS
-- [Healthy Recipes (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/healthy-recipes)
-- [Olivia Woodruff Portfolio (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/olivia-woodruff-portfolio)
-- [Davie's Burgers (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/davie-burgers)
-- [Broadway (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/broadway)
-- [Paint Store (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/paint-store)
-- [Typography (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/typography)
-- [CSS Grid - PupSpa (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/css-grid-pup-spa)
-- [CSS Grid - Task Board (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/css-grid-task-board)
-- [CSS Grid - Architecture Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/css-grid-architecture-blog)
+- [Healthy Recipes](https://ivobul.github.io/html-css-codecademy-projects/healthy-recipes)
+- [Olivia Woodruff Portfolio](https://ivobul.github.io/html-css-codecademy-projects/olivia-woodruff-portfolio)
+- [Davie's Burgers](https://ivobul.github.io/html-css-codecademy-projects/davie-burgers)
+- [Broadway](https://ivobul.github.io/html-css-codecademy-projects/broadway)
+- [Paint Store](https://ivobul.github.io/html-css-codecademy-projects/paint-store)
+- [Typography](https://ivobul.github.io/html-css-codecademy-projects/typography)
 
 ## Learn Intermediate CSS
 - [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/flexbox-to-do-app)
