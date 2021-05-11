@@ -17,6 +17,13 @@
 - [CSS Grid - Task Board (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/css-grid-task-board)
 - [CSS Grid - Architecture Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/css-grid-architecture-blog)
 
+## Learn Intermediate CSS
+- [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/Flexbox:%20To-Do%20App)
+- [Tea Cozy](https://ivobul.github.io/html-css-codecademy-projects/Tea%20Cozy)
+- [CSS Grid - PupSpa (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20PupSpa)
+- [CSS Grid - Task Board (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20Task%20Board)
+- [Transitions - 20,000 Leagues Under the Sea]
+
 ## How to Make a Website with NameCheap
 - [Common Cents Party (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/common-cents-party)
 - [Cupful Cafe (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/cupful-cafe)
@@ -40,13 +47,6 @@
 - [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/flexbox-to-do-app)
 - [Tea Cozy](https://ivobul.github.io/html-css-codecademy-projects/tea-cozy)
 - [Excursion Project](https://ivobul.github.io/html-css-codecademy-projects/excursion-project)
-
-## Learn Intermediate CSS
-- [Flexbox: To-Do App](https://ivobul.github.io/html-css-codecademy-projects/Flexbox:%20To-Do%20App)
-- [Tea Cozy](https://ivobul.github.io/html-css-codecademy-projects/Tea%20Cozy)
-- [CSS Grid - PupSpa (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20PupSpa)
-- [CSS Grid - Task Board (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/CSS%20Grid%20-%20Task%20Board)
-- [Transitions - 20,000 Leagues Under the Sea]
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
