@@ -39,6 +39,6 @@
 - [Fotomatic](https://ivobul.github.io/html-css-codecademy-projects/fotomatic)
 - [Excursion Project](https://ivobul.github.io/html-css-codecademy-projects/excursion-project)
 
-### Link
-[HTML & CSS Courses | Codecademy](https://www.codecademy.com/catalog/language/html-css)
+## Link
+- [HTML & CSS Courses | Codecademy](https://www.codecademy.com/catalog/language/html-css)
 
