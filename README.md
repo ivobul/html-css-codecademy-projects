@@ -34,9 +34,6 @@
 - [Adhoc](https://ivobul.github.io/html-css-codecademy-projects/Adhoc)
 - [Recreate a painting using Bootstrap's grid](https://ivobul.github.io/html-css-codecademy-projects/recreate-painting-bootstrap)
 
-## Learn Navigation Design
-- [The Summit (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/summit)
-
 ## Build a Website with HTML, CSS, and Github Pages (Skill Path)
 - [Dasmoto's Arts & Crafts](https://ivobul.github.io/html-css-codecademy-projects/dasmoto-arts-crafts)
 - [Fotomatic](https://ivobul.github.io/html-css-codecademy-projects/fotomatic)
