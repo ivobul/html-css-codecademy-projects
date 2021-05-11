@@ -1,10 +1,10 @@
 # LEARN HTML & CSS | CODECADEMY PROJECTS
 
 ## Learn HTML
-- [Fashion Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/fashion-blog)
-- [Wine Festival Schedule (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/wine-festival-schedule)
-- [Form a Story (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/form-story)
-- [New York City Blog (Freeform Project)](https://ivobul.github.io/html-css-codecademy-projects/new-york-city-blog)
+- [Fashion Blog](https://ivobul.github.io/html-css-codecademy-projects/fashion-blog)
+- [Wine Festival Schedule](https://ivobul.github.io/html-css-codecademy-projects/wine-festival-schedule)
+- [Form a Story](https://ivobul.github.io/html-css-codecademy-projects/form-story)
+- [New York City Blog](https://ivobul.github.io/html-css-codecademy-projects/new-york-city-blog)
 
 ## Learn CSS
 - [Healthy Recipes](https://ivobul.github.io/html-css-codecademy-projects/healthy-recipes)
