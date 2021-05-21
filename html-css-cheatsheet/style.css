@@ -1,0 +1,145 @@
+/* CSS Reset */
+/* Resetting margins, paddings, and borders */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Min height */
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+/* Resetting specific element styles */
+ol,
+ul {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+img {
+  border-style: none;
+}
+
+/* General styles */
+body {
+  background-color: #e5e5e5;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  padding: 0 1rem; 
+}
+
+main {
+  max-width: 1000px;
+  margin: 3rem auto;
+  overflow-x: auto; 
+}
+
+h1 {
+  color: #131c33;
+  text-transform: capitalize;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1rem;
+  min-height: 100vh;
+  width: 100%;
+}
+
+th {
+  background: #2DF672;
+  color: #283a6b;
+ 
+}
+
+tr {
+  background: #F68042;
+  color: #f2f2f2;
+}
+
+tr:hover {
+ background: #f06012;
+}
+
+
+th, td {
+  border: 2px solid white;
+  padding: .7rem 1rem;
+}
+
+tr td {
+  text-align: center;
+}
+
+.code {
+  background-color: #fff;
+  color: #f6722d;
+  font-family: monospace;
+  font-size: .9rem;
+}
+
+@media (max-width: 767px) {
+  table {
+   white-space: nowrap;
+  }
+}
