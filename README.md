@@ -40,7 +40,7 @@
 - [Excursion Project](https://ivobul.github.io/html-css-codecademy-projects/excursion-project)
 
 ## Challenge Projects (HTML, CSS)
-- [Build your Own Cheatsheet (HTML, CSS)](https://ivobul.github.io/html-css-codecademy-projects/html-css-cheatsheet)
+- [Build your Own Cheatsheet](https://ivobul.github.io/html-css-codecademy-projects/html-css-cheatsheet)
 ## Link
 - [HTML & CSS Courses | Codecademy](https://www.codecademy.com/catalog/language/html-css)
 
