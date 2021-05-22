@@ -41,6 +41,7 @@
 
 ## Challenge Projects (HTML, CSS)
 - [Build your Own Cheatsheet](https://ivobul.github.io/html-css-codecademy-projects/html-css-cheatsheet)
-## Link
-- [HTML & CSS Courses | Codecademy](https://www.codecademy.com/catalog/language/html-css)
+
+### Link
+[HTML & CSS Courses | Codecademy](https://www.codecademy.com/catalog/language/html-css)
 
