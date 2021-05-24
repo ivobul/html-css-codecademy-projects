@@ -41,6 +41,7 @@
 
 ## Independent Projects (HTML, CSS)
 - [Build your Own Cheatsheet](https://ivobul.github.io/html-css-codecademy-projects/html-css-cheatsheet)
+- [Build a Website Design System](https://ivobul.github.io/html-css-codecademy-projects/web-design-system)
 
 ### Link
 [HTML & CSS Courses | Codecademy](https://www.codecademy.com/catalog/language/html-css)
