@@ -39,7 +39,7 @@
 - [Fotomatic](https://ivobul.github.io/html-css-codecademy-projects/fotomatic)
 - [Excursion Project](https://ivobul.github.io/html-css-codecademy-projects/excursion-project)
 
-## Challenge Projects (HTML, CSS)
+## Independent Projects (HTML, CSS)
 - [Build your Own Cheatsheet](https://ivobul.github.io/html-css-codecademy-projects/html-css-cheatsheet)
 
 ### Link
