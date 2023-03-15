@@ -120,6 +120,15 @@ nav li:last-child {
   padding-right: 0;
 }
 
+nav a {
+  color: #000;
+  transition: color .3s;
+}
+
+nav a:hover {
+color: #4a4a4a;
+}
+
 /* Banner */
 #banner {
   background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-6/banner.png) center center no-repeat;
@@ -481,6 +490,11 @@ footer .button {
   background-color: #ff8000;
   border-radius: 4px;
   padding: 1.25rem 3.75rem;
+  transition: background-color .5s;
+}
+
+footer .button:hover {
+  background-color: #ffa64c;
 }
 
 @media screen and (max-width: 990px) {
