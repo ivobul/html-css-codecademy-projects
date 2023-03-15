@@ -84,7 +84,6 @@ body {
 
 .main-content {
   position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
 }
 
 .center {
@@ -95,6 +94,12 @@ body {
   border-radius: 4px;
   background-color: #4a4a4a;
   color: white;
+  cursor: pointer;
+  transition: background-color .5s;
+}
+
+.button:hover {
+  background-color: #333333;
 }
 
 .image-container {
@@ -123,7 +128,7 @@ header {
 header .content {
   align-items: center;
   display: flex;
-  padding: 1.875rem;
+  padding: 1.3rem 1.875rem;
 }
 
 header .logo {
@@ -140,9 +145,15 @@ nav li {
 
 nav a {
   color: #4a4a4a;
-  font-size: 1rem;
-  line-height: 1.6;
-  vertical-align: bottom;
+  transition: background-color .5s;
+}
+
+nav a:visited {
+  color: #4a4a4a;
+}
+
+header a:hover {
+  color: #161616;
 }
 
 header .icon {
@@ -465,7 +476,6 @@ footer {
 footer .content {
   color: white;
   display: flex;
-  font-size: .75rem;
 }
 
 footer .copyright {
@@ -474,6 +484,10 @@ footer .copyright {
 
 @media screen and (max-width: 760px) {
   footer .content {
-    font-size: .625rem;
+    align-items: center;
+    flex-direction: column;
+    font-size: .875rem;
+    gap: 10px;
+    text-align: center;
   }
 }
