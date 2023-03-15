@@ -188,6 +188,7 @@ embed {
 footer {
   background-color: #010e80;
   bottom: -100px;
+  padding: 20px 10px;
 	position: relative;
 	width: 100%;
 }
@@ -195,7 +196,6 @@ footer {
 footer p {
 	color: white;
 	text-decoration: none;
-	padding: 10px;
 	text-align: center;
 }
 
