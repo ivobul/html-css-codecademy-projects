@@ -81,82 +81,77 @@ a {
 /* General styles */
 body {
   color: #fff;
-  font-family: Arial;
-}
-
-p, 
-a {
-  font-size: 0.9rem;
-}
-
-img {
-  height: 350px;
-  max-width: 550px;
-  padding-left: 30px;
+  font-family: Arial, sans-serif;
 }
 
 .container {
   display: flex;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Navigation */
 .nav {
-  color: #FFCFCF;
-  padding-top: 55px;
-  padding-right: 30px;
+  flex: 1 0 auto;
+  padding: 55px 0;
   text-align: center;
-  width: 15%;
 }
 
-.nav h4 {
-  -webkit-margin-before: 0;
-  margin-left: 30px;
+.nav h1 {
+  color: #cc7c7c;
+  font-size: 1.2rem;
+  padding: 0 30px;
 }
 
 .nav ul {
-  margin: 15px 0 0 30px;
+  margin-top: 15px;
 }
 
-.nav li {
-  padding: 3px 0;
+.nav li a {
+  color: #cc7c7c;
+  display: block;
+  padding: 8px 30px;
+  transition: color .3s;
+}
+
+.nav li a:hover {
+  color: #dba3a3;
 }
 
 /* Main section */
 .main {
-  background-color: #FFCFCF;
-  min-height: 750px;
-  height: 100vh;
-  width: 85%;
+  background-color: #ff9c9c;
+  flex: 80%;
+  padding: 55px 30px;
+}
+
+.main img {
+  height: 350px;
+  max-width: 550px;
+  width: 100%;
 }
 
 .main ul {
-  padding-left: 30px;
-}
-
-.main li {
-  font-size: 0.9rem;
+  margin-top: 15px;
 }
 
 .main h1 {
-  font-size: 3.875rem;
-  padding-top: 40px;
-  padding-left: 30px;
-  -webkit-margin-before: 0;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 15px;
 }
 
 .main video {
-  padding-left: 30px;
+  height: auto;
 }
 
 .main p {
-  padding: 10px 0 10px 30px;
+  margin-top: 15px;
   width: 55%;
 }
 
 .main a {
-  color: inherit;
-  padding-left: 30px;
+  display: block;
+  margin-top: 10px;
   text-decoration: none;
 }
 
@@ -164,37 +159,35 @@ img {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .container {
     flex-direction: column;
   }
-
-  .nav,
-  .main,
-  .main p,
-  .main img {
-    width: 100%;  
+  
+  .nav ul li a {
+    transition: all .5s;
   }
-
-  .nav {
-    padding-top: 27.5px;
+  
+  .nav ul li a:hover {
+    background-color: #cc7c7c;
+    color: #fff;
   }
-
-  .nav h4 {
-    margin-left: 0;
-  }
-
-  .nav ul {
-    margin: 15px 0;
+  
+  .main {
+    padding: 55px 0 55px 30px;
   }
 
   .main h1 {
     font-size: 2rem;
+    padding-right: 10px;
   }
 
   .main img { 
     height: auto;
   }
-
-  .main p { padding-right: 10px; }
+  
+  .main p {
+    padding-right: 10px; 
+    width: 100%;  
+  }
 }
