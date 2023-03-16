@@ -106,10 +106,13 @@ body {
   margin-top: 15px;
 }
 
+.nav ul li {
+  padding: 8px 30px;
+}
+
 .nav li a {
   color: #cc7c7c;
-  display: block;
-  padding: 8px 30px;
+  display: inline-block;
   transition: color .3s;
 }
 
@@ -163,8 +166,14 @@ body {
   .container {
     flex-direction: column;
   }
+
+  .nav ul li {
+    padding: 0;
+  }
   
   .nav ul li a {
+    display: block;
+    padding: 8px 30px;
     transition: all .5s;
   }
   
@@ -177,9 +186,15 @@ body {
     padding: 55px 0 55px 30px;
   }
 
+  .main h1,
+  .main ul,
+  .main p,
+  .main a {
+    padding-right: 10px;
+  }
+
   .main h1 {
     font-size: 2rem;
-    padding-right: 10px;
   }
 
   .main img { 
@@ -187,7 +202,6 @@ body {
   }
   
   .main p {
-    padding-right: 10px; 
     width: 100%;  
   }
 }
