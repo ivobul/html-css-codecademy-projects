@@ -104,8 +104,7 @@ nav img {
 
 nav span {
   display: block;
-  font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 2px;
   margin: 10px 0;
 }
@@ -115,7 +114,7 @@ nav a {
 }
 
 nav a:hover {
- color: #141414;
+ color: #2176FF;
 }
 
 /* Content Container */
