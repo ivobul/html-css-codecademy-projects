@@ -137,7 +137,7 @@ main h1 {
 /* Main */
 /* Jumbotron */
 .jumbotron {
-  background-image: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg");
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
