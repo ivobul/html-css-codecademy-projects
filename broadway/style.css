@@ -82,7 +82,7 @@ a {
   max-width: 940px;
   height: 100%;
   margin: 0 auto;
-  padding: 0 .625rem;
+  padding: 0 1rem;
   text-align: center;
 }
 
@@ -105,7 +105,6 @@ nav ul {
 }
 
 nav li {
-  color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: .9rem;
@@ -114,9 +113,16 @@ nav li {
 }
 
 nav a {
+  color: #fff;
   display: block;
   padding: 1.3rem 0;
+  transition: color .3s;
 }
+
+nav a:hover {
+  color: #b2b2b2
+}
+
 
 /* Main */
 main {
@@ -127,7 +133,6 @@ main {
 main h1 {
   color: #333;
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
   font-size: 4.375rem;
   padding-top: 12.5rem;
   padding-bottom: 5rem;
@@ -137,7 +142,7 @@ main h1 {
 /* Main */
 /* Jumbotron */
 .jumbotron {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg);
+  background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url(https://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -146,6 +151,7 @@ main h1 {
 
 a.btn-main {
   background-color: #333;
+  border: 2px solid transparent;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
@@ -154,6 +160,13 @@ a.btn-main {
   padding: 1rem 2.5rem;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all .3s;
+}
+
+a.btn-main:hover {
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #333;
 }
 
 /* Main */
@@ -190,17 +203,24 @@ a.btn-main {
 }
 
 .supporting a {
-  background-color: white;
-  border: 2px solid #333333; 
+  background-color: #fff;
+  border: 2px solid #000; 
   color: #333333;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: .75rem;
   letter-spacing: 1.3px;
   margin-bottom: .625rem;
-  padding: .625rem;
+  padding: .625rem .875rem;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.supporting a:hover {
+  background-color: #000;
+  border: 2px solid transparent; 
+  color: #fff;
+  transition: all .3s;
 }
 
 
@@ -215,7 +235,7 @@ footer {
 
 footer p {
   font-family: 'Raleway', sans-serif;
-  font-size: 0.6875rem;
+  font-size: 0.875rem;
   text-transform: uppercase;
 }
 
@@ -251,11 +271,11 @@ footer p {
 
   main h1 {
     font-size: 2.5rem;
-    font-weight: bold;
-    padding-top: 18.75rem;
+    padding-top: 14rem;
   }
 
   .supporting .col {
+    display: block;
     width: 100%;
   }
 
